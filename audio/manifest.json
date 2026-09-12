@@ -1,0 +1,154 @@
+[
+  {
+    "file": "engine-idle.wav",
+    "sourceFile": "002-performance-cars-mutedio.wav",
+    "sourceSha256": "8a174b0cd2fd4f12c9d8d5b4bfc310f068aab6b88a4690ab891ed02d2fc7fdc5",
+    "excerptSeconds": [
+      8.0,
+      11.0
+    ],
+    "bandpassHz": [
+      32,
+      4500
+    ],
+    "pitch": 0.85,
+    "loop": true,
+    "seconds": 3.4644,
+    "rms": 0.2,
+    "peak": 0.77573,
+    "sha256": "3ad7f769ef86dac75c17e93b77e6f83bd6eeece414f3183ff4c7a445623ed139"
+  },
+  {
+    "file": "engine-low.wav",
+    "sourceFile": "039-performance-cars-mutedio.wav",
+    "sourceSha256": "6c0017213bef26d4fe31cdffd1c593462f85ca38f9b4b9b43a45ec5823dd1ec8",
+    "excerptSeconds": [
+      12.0,
+      14.0
+    ],
+    "bandpassHz": [
+      45,
+      7500
+    ],
+    "pitch": 1.35,
+    "loop": true,
+    "seconds": 1.4165,
+    "rms": 0.2,
+    "peak": 0.70146,
+    "sha256": "3eae65f5116686b88a4a72ddde7494dfda53f97a287b88687dc92e47476ef412"
+  },
+  {
+    "file": "engine-high.wav",
+    "sourceFile": "039-performance-cars-mutedio.wav",
+    "sourceSha256": "6c0017213bef26d4fe31cdffd1c593462f85ca38f9b4b9b43a45ec5823dd1ec8",
+    "excerptSeconds": [
+      12.0,
+      16.0
+    ],
+    "bandpassHz": [
+      85,
+      10000
+    ],
+    "pitch": 2.5,
+    "loop": true,
+    "seconds": 1.535,
+    "rms": 0.2,
+    "peak": 0.77277,
+    "sha256": "92c99bbba7f1ab5ea153ed762d4fab223cc112b98942fced344d31a29a089e00"
+  },
+  {
+    "file": "turbo-spool.wav",
+    "sourceFile": "turbo.mp3",
+    "sourceSha256": "a87bb8d8f60a069e3abeffd2c455594028b386597507597e681cf02c95c71690",
+    "excerptSeconds": [
+      0.12,
+      0.48
+    ],
+    "bandpassHz": [
+      1100,
+      7500
+    ],
+    "pitch": 1,
+    "loop": true,
+    "seconds": 0.315,
+    "rms": 0.18,
+    "peak": 0.71208,
+    "sha256": "26e4602bf2ca1af763398a659b7e8b6718c500b776c2a5cd9cb42d91eb4ed31e"
+  },
+  {
+    "file": "turbo-release.wav",
+    "sourceFile": "turbo.mp3",
+    "sourceSha256": "a87bb8d8f60a069e3abeffd2c455594028b386597507597e681cf02c95c71690",
+    "excerptSeconds": [
+      0.12,
+      1.3
+    ],
+    "bandpassHz": [
+      700,
+      9500
+    ],
+    "pitch": 1,
+    "loop": false,
+    "seconds": 1.18,
+    "rms": 0.18,
+    "peak": 0.87337,
+    "sha256": "b8a9e19f4e8282a7e26295422bcacd27071283b52b00691266181e0bd78fc79b"
+  },
+  {
+    "file": "suspension.wav",
+    "sourceFile": "suspension.mp3",
+    "sourceSha256": "20aa7cde63431f38b1697b9a9310dc1b34c6108b40b73c0c5f25fdc571ddce68",
+    "excerptSeconds": [
+      3.12,
+      3.83
+    ],
+    "bandpassHz": [
+      110,
+      4500
+    ],
+    "pitch": 1,
+    "loop": false,
+    "seconds": 0.71,
+    "rms": 0.18,
+    "peak": 0.66379,
+    "sha256": "1f6db425636d486174bc83203c87288b94b18e91079219c0c7b27e58e4618a82"
+  },
+  {
+    "file": "impact-light.wav",
+    "sourceFile": "clank.mp3",
+    "sourceSha256": "bdd232131b376d6b674e9a4c008eef9e94b1e65d797296b3bd06448b8b3a5944",
+    "excerptSeconds": [
+      0,
+      0.53
+    ],
+    "bandpassHz": [
+      50,
+      8500
+    ],
+    "pitch": 1,
+    "loop": false,
+    "seconds": 0.53,
+    "rms": 0.1751,
+    "peak": 0.92,
+    "sha256": "1e1b609105bd78fb95a463470121795dc7105069a9aad27a4044cb89a6c37030"
+  },
+  {
+    "file": "impact-heavy.wav",
+    "sourceFile": "crash.mp3",
+    "sourceSha256": "6587ffc83281ecea17bf41a37e461c93d73424b478759e78dad35d71310823da",
+    "excerptSeconds": [
+      0.3,
+      2.35
+    ],
+    "bandpassHz": [
+      35,
+      11000
+    ],
+    "pitch": 1,
+    "loop": false,
+    "seconds": 2.05,
+    "rms": 0.06733,
+    "peak": 0.92,
+    "sha256": "fb8ad19288fcbd4b158a8a34d0e46847538725f24b358c08ad1df4f2e03fd07c"
+  }
+]
