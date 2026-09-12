@@ -2,7 +2,7 @@
 
 [Pelaa selaimessa](https://alluharju-bot.github.io/ralli-play/)
 
-Tietokoneella pelattava ralliprototyyppi. Lähtö Space-painikkeella, jonka jälkeen näkyy 3–2–1-laskenta. Voit antaa kierroksia jo ennen lähtöä.
+Peli alkaa **Pajasta**. **Ajamaan** aloittaa uuden lähdön; **Radalle** avaa odotusruudun. Space käynnistää 3–2–1-laskennan. Voit antaa kierroksia jo ennen lähtöä.
 
 - W / nuolet: kaasu ja ohjaus
 - S: jarru, hitaassa vauhdissa peruutus
@@ -11,25 +11,28 @@ Tietokoneella pelattava ralliprototyyppi. Lähtö Space-painikkeella, jonka jäl
 - R: takaisin radalle, vauriot säilyvät
 - Esc: uusi yritys
 
-Varikolla on viisi omaa näkymää: Kilpailut, Autokauppa, Paja, Bodyshop ja Asetukset. Autokaupan vieritettävistä autokorteista voi katsella ja ostaa neljä erilaista autoa. Pajassa moottori ja päivitysosat näkyvät auton alapuolella, ja Bodyshopissa muokataan ulkonäköä. Raha näkyy yläpalkissa myös ajon aikana.
+Valikot ovat Paja, Kilpailut, Autokauppa, Bodyshop ja Asetukset. Pajan osakortit kelluvat autonäkymässä. Kortti avaa ostot ja säädöt sekä siirtää kameran valittuun kohteeseen. Studio käyttää heijastuksia, valaistusta ja hillittyä bloomia. Kassa näkyy valikoiden yläpalkissa.
 
-Bulancian rinnalla ovat Folkkari-buggy, Chevrolette Pikkumörkö ja VNQ-ralliauto. Autojen osia voi vaihtaa keskenään ja vauriot korjataan maksusta. Automaatti hakee tehokasta välitystä ja osaa pudottaa useamman vaihteen kerralla. Renkaat heittävät lunta, ja checkpoint näyttää ensisijaisesti erotuksen ennätykseen. Tallennus toimii omassa selaimessa. Nykyinen versio on yksinpeli; kosketusnäyttöohjausta ei vielä ole.
+Bulancian rinnalla ovat Folkkari-buggy, Chevrolette Pikkumörkö ja VNQ-ralliauto. Osia voi vaihtaa autojen kesken, ja vauriot korjataan maksusta. **Paja → Suosikit** tallentaa virityksen nimellä ja palauttaa haluttaessa vakiovarusteet. Kokoonpanojen vaihto säilyttää vauriot. Tallennus toimii omassa selaimessa. Ajaminen on tarkoitettu tietokoneelle ja näppäimistölle tai peliohjaimelle; kosketusohjausta ei vielä ole.
 
-Tämä repo sisältää valmiin selainjulkaisun. [Äänilähteet ja lisenssit](audio/CREDITS.md).
+## Ennätykset ja haamut
 
+**Ennätykset** avaa yhteisen listan valikoista tai maaliruudusta. Valitse automalli ja Vakio tai Viritetyt. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit lähteä sitä vastaan heti. **Näytä auto** avaa tarkan kokoonpanon, jonka voi tallentaa suosikkeihin.
 
-## Yhteiset ennätykset ja ghostit
+Nimimerkin luomisen jälkeen uudet kelvolliset yksinpeliajot tallentuvat yhteiseen listaan. Maaliruutu näyttää ajan, ennätyksen, sijoituksen ja lähetyksen tilan. Lähetysvirheen jälkeen voit yrittää uudelleen samassa peli-istunnossa. Ajat perustuvat vielä selaimessa tallennettuihin ajoihin; tuloksia ei ole suojattu huijaamiselta palvelimen ajofysiikalla.
 
-Varikko → Yhteiset ennätykset & ghostit. Valitse automalli ja vakio- tai viritettyjen luokka. Lista avautuu omaan ikkunaan. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit valita, ajatko sitä vastaan heti. Näytä auto avaa ennätyksen tarkan kokoonpanon, jonka voi tallentaa suoraan omiin suosikkeihin.
+Ajossa ajat ovat oikealla ylhäällä, sijoitus vasemmalla ylhäällä, kartta vasemmalla alhaalla sekä nopeus ja vaihde oikealla alhaalla. Checkpointin tärkein numero on erotus vertailuaikaan.
 
-Nimimerkin luomisen jälkeen uudet kelvolliset ajot tallentuvat palvelimen yhteiseen listaan. Maaliruutu näyttää oman ennätyksen, palvelimen ilmoittaman sijoituksen sekä lähetyksen tilan. Lähetysvirheen jälkeen voit yrittää uudelleen samassa peli-istunnossa. Maaliruudusta pääsee suoraan oman luokan ennätyksiin ja kilpailijoiden haamuihin. Lista on vielä proton selaimessa tallennettuja ajoja, ei huijaussuojattu virallinen kilpailu.
+## Yhdessä · 2–4 pelaajaa
 
-Autossa on kuski ja kääntyvä ratti, avoimet kuppi-istuimet, erillinen moottorimalli sekä valittavat heiluvat nopat tai tuoksukuusi. Tienvarsikepit kaatuvat osumasta. Äänenvoimakkuus ja mykistys säilyvät myös auton vaihdossa.
+**Kilpailut → Yhdessä**. Anna nimimerkki, luo huone ja kopioi kutsulinkki. Muut liittyvät kuusimerkkisellä koodilla. Jokainen valitsee **Valmis**, huoneen luoja **Lähtö**. Muut autot näkyvät omilla kokoonpanoillaan, pyörien liikkeillä ja irronneilla osilla.
 
-Varikon **Tee autosta vakiovarusteltu** palauttaa tehdasosat ja -säädöt. **Suosikkikokoonpanot** tallentaa virityksen nimellä: osat, säädöt, värit ja koristeet saa takaisin myös vakioajon jälkeen. Suosikit tallentuvat tähän selaimeen. Varusteiden vaihto säilyttää nykyiset vauriot; korjaukset tehdään korjaamolla.
+Verkkoharjoituksessa autot eivät vielä törmää toisiinsa. Ajo ei julkaise ennätyksiä eikä tuota palkintoja. Palvelin määrää yhteisen lähtöhetken ja viestien omistajuuden. Yhteinen ajofysiikka ja verkkotulosten vahvistus tulevat myöhemmin. Raketeille, luodeille ja kranaateille on verkkotapahtumien pohja, mutta pelattavia aseita ei vielä ole.
 
-## Musiikkisoitin
+## Musiikki
 
-Yläpalkissa on toisto/tauko, edellinen ja seuraava kappale, saman kappaleen uusinta, musiikin oma äänenvoimakkuus ja pieni kappalevalikko. Kapealla näytöllä soitin avautuu nuottipainikkeesta.
+Yläpalkin soittimessa on toisto/tauko, edellinen/seuraava, saman kappaleen uusinta, äänenvoimakkuus ja kappalevalikko. Kapealla näytöllä ja ajossa soitin avautuu nuottipainikkeesta. Asetukset säilyvät auton vaihdossa.
 
-Workshop Groove soi oletuksena valikoissa. Ajossa soittolistalla ovat Gearshift Rush, Pulsing Bass, Racing Energy ja Rally Groove. Kappaleet vaihtuvat automaattisesti ja listan lopusta palataan alkuun. Kappaleen voi valita myös itse. Musiikki käynnistyy ensimmäisen klikkauksen, näppäinpainalluksen tai Toista-painikkeen jälkeen. Soittimen asetukset, valinnat ja toistokohdat tallentuvat erillään auton äänistä ja säilyvät auton vaihdossa. [Musiikkitiedostot](audio/music/README.md).
+Workshop Groove on valikoiden oletuskappale. Ajossa soivat Gearshift Rush, Pulsing Bass, Racing Energy ja Rally Groove. Kappaleet vaihtuvat pehmeällä ristihäivytyksellä. Ajomusiikki jatkuu maaliruudussa ja ennätyslistassa; valikkomusiikki vaihtuu vasta Pajassa tai Kilpailuissa. Musiikki käynnistyy ensimmäisestä käyttäjätoiminnosta tai Toista-painikkeesta.
+
+Tämä repo sisältää valmiin selainjulkaisun. [Äänilähteet ja lisenssit](audio/CREDITS.md) · [Musiikkitiedostot](audio/music/README.md).
