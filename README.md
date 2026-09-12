@@ -27,3 +27,9 @@ Nimimerkin luomisen jälkeen uudet kelvolliset ajot tallentuvat palvelimen yhtei
 Autossa on kuski ja kääntyvä ratti, avoimet kuppi-istuimet, erillinen moottorimalli sekä valittavat heiluvat nopat tai tuoksukuusi. Tienvarsikepit kaatuvat osumasta. Äänenvoimakkuus ja mykistys säilyvät myös auton vaihdossa.
 
 Varikon **Tee autosta vakiovarusteltu** palauttaa tehdasosat ja -säädöt. **Suosikkikokoonpanot** tallentaa virityksen nimellä: osat, säädöt, värit ja koristeet saa takaisin myös vakioajon jälkeen. Suosikit tallentuvat tähän selaimeen. Varusteiden vaihto säilyttää nykyiset vauriot; korjaukset tehdään korjaamolla.
+
+## Musiikkisoitin
+
+Yläpalkissa on toisto/tauko, edellinen ja seuraava kappale, saman kappaleen uusinta, musiikin oma äänenvoimakkuus ja pieni kappalevalikko. Kapealla näytöllä soitin avautuu nuottipainikkeesta.
+
+Workshop Groove soi oletuksena valikoissa. Ajossa soittolistalla ovat Gearshift Rush, Pulsing Bass, Racing Energy ja Rally Groove. Kappaleet vaihtuvat automaattisesti ja listan lopusta palataan alkuun. Kappaleen voi valita myös itse. Musiikki käynnistyy ensimmäisen klikkauksen, näppäinpainalluksen tai Toista-painikkeen jälkeen. Soittimen asetukset, valinnat ja toistokohdat tallentuvat erillään auton äänistä ja säilyvät auton vaihdossa. [Musiikkitiedostot](audio/music/README.md).

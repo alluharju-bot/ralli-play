@@ -1,6 +1,6 @@
 # Rallin äänitykset
 
-Kaikki mukana olevat ääninäytteet perustuvat oikeisiin äänityksiin. Moottori ei ole varmennettu Lancia: ilmaisen lähdepaketin autojen malleja ja mitattuja kierroslukuja ei ole yksilöity. RPM-kerrokset ja sävy on sovitettu protolle. Moottorin synteettiset oskillaattorit on poistettu.
+Tämän sivun auton äänitehosteet perustuvat oikeisiin äänityksiin. Moottori ei ole varmennettu Lancia: ilmaisen lähdepaketin autojen malleja ja mitattuja kierroslukuja ei ole yksilöity. RPM-kerrokset ja sävy on sovitettu protolle. Moottorin synteettiset oskillaattorit on poistettu. Käyttäjän toimittamat taustamusiikit on lueteltu [erikseen](music/README.md).
 
 Lähteet tarkistettu ja ladattu 12.9.2026. Kaikkien alla olevien tiedostojen lähdesivu ilmoittaa lisenssiksi **[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)**, joka sallii myös muokkauksen ja kaupallisen pelikäytön.
 
