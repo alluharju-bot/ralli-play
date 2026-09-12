@@ -11,6 +11,6 @@ Tietokoneella pelattava ralliprototyyppi. Lähtö Space-painikkeella, jonka jäl
 - R: takaisin radalle, vauriot säilyvät
 - Esc: uusi yritys
 
-Varikolla voi ostaa osia, vaihtaa renkaita ja korjata vaurioita. Tallennus toimii omassa selaimessa. Nykyinen versio on yksinpeli; kosketusnäyttöohjausta ei vielä ole.
+Varikolla voi ostaa neljä erilaista autoa, vaihtaa niiden osia keskenään ja korjata vaurioita. Bulancian rinnalla ovat Folkkari-buggy, Chevrolette Pikkumörkö ja VNQ-ralliauto. Automaatti hakee tehokasta välitystä ja osaa pudottaa useamman vaihteen kerralla. Renkaat heittävät lunta, ja checkpoint näyttää ensisijaisesti erotuksen ennätykseen. Tallennus toimii omassa selaimessa. Nykyinen versio on yksinpeli; kosketusnäyttöohjausta ei vielä ole.
 
 Tämä repo sisältää valmiin selainjulkaisun. [Äänilähteet ja lisenssit](audio/CREDITS.md).
