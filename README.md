@@ -11,14 +11,18 @@ Tietokoneella pelattava ralliprototyyppi. Lähtö Space-painikkeella, jonka jäl
 - R: takaisin radalle, vauriot säilyvät
 - Esc: uusi yritys
 
-Varikolla voi ostaa neljä erilaista autoa, vaihtaa niiden osia keskenään ja korjata vaurioita. Bulancian rinnalla ovat Folkkari-buggy, Chevrolette Pikkumörkö ja VNQ-ralliauto. Automaatti hakee tehokasta välitystä ja osaa pudottaa useamman vaihteen kerralla. Renkaat heittävät lunta, ja checkpoint näyttää ensisijaisesti erotuksen ennätykseen. Tallennus toimii omassa selaimessa. Nykyinen versio on yksinpeli; kosketusnäyttöohjausta ei vielä ole.
+Varikolla on viisi omaa näkymää: Kilpailut, Autokauppa, Paja, Bodyshop ja Asetukset. Autokaupan vieritettävistä autokorteista voi katsella ja ostaa neljä erilaista autoa. Pajassa moottori ja päivitysosat näkyvät auton alapuolella, ja Bodyshopissa muokataan ulkonäköä. Raha näkyy yläpalkissa myös ajon aikana.
+
+Bulancian rinnalla ovat Folkkari-buggy, Chevrolette Pikkumörkö ja VNQ-ralliauto. Autojen osia voi vaihtaa keskenään ja vauriot korjataan maksusta. Automaatti hakee tehokasta välitystä ja osaa pudottaa useamman vaihteen kerralla. Renkaat heittävät lunta, ja checkpoint näyttää ensisijaisesti erotuksen ennätykseen. Tallennus toimii omassa selaimessa. Nykyinen versio on yksinpeli; kosketusnäyttöohjausta ei vielä ole.
 
 Tämä repo sisältää valmiin selainjulkaisun. [Äänilähteet ja lisenssit](audio/CREDITS.md).
 
 
 ## Yhteiset ennätykset ja ghostit
 
-Varikko → Yhteiset ennätykset & ghostit. Valitse automalli ja vakio- tai viritettyjen luokka. Lista avautuu omaan ikkunaan. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit valita, ajatko sitä vastaan heti. Näytä auto avaa ennätyksen tarkan kokoonpanon. Nimimerkin luomisen jälkeen uudet kelvolliset ajot tallentuvat yhteiseen listaan. Lista on vielä proton selaimessa tallennettuja ajoja, ei huijaussuojattu virallinen kilpailu.
+Varikko → Yhteiset ennätykset & ghostit. Valitse automalli ja vakio- tai viritettyjen luokka. Lista avautuu omaan ikkunaan. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit valita, ajatko sitä vastaan heti. Näytä auto avaa ennätyksen tarkan kokoonpanon, jonka voi tallentaa suoraan omiin suosikkeihin.
+
+Nimimerkin luomisen jälkeen uudet kelvolliset ajot tallentuvat palvelimen yhteiseen listaan. Maaliruutu näyttää oman ennätyksen, palvelimen ilmoittaman sijoituksen sekä lähetyksen tilan. Lähetysvirheen jälkeen voit yrittää uudelleen samassa peli-istunnossa. Maaliruudusta pääsee suoraan oman luokan ennätyksiin ja kilpailijoiden haamuihin. Lista on vielä proton selaimessa tallennettuja ajoja, ei huijaussuojattu virallinen kilpailu.
 
 Autossa on kuski ja kääntyvä ratti, avoimet kuppi-istuimet, erillinen moottorimalli sekä valittavat heiluvat nopat tai tuoksukuusi. Tienvarsikepit kaatuvat osumasta. Äänenvoimakkuus ja mykistys säilyvät myös auton vaihdossa.
 
