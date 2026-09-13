@@ -34,7 +34,15 @@ Ajossa ajat ovat oikealla ylhäällä, sijoitus vasemmalla ylhäällä, kartta v
 
 **Kilpailut → Yhteispeli**. Anna nimimerkki, luo huone ja kopioi kutsulinkki. Muut liittyvät kuusimerkkisellä koodilla. Jokainen valitsee **Valmis**, huoneen luoja **Lähtö**. Muut autot näkyvät omilla kokoonpanoillaan, pyörien liikkeillä ja irronneilla osilla. Tab-taulukko näyttää kaikkien tilanteen ajon jatkuessa. Harjoituksessa on tällä hetkellä yksi kierros, joten paras kierrosaika syntyy maalissa.
 
-Verkkoharjoituksessa autot eivät vielä törmää toisiinsa. Ajo ei julkaise ennätyksiä eikä tuota palkintoja. Palvelin määrää yhteisen lähtöhetken ja viestien omistajuuden. Yhteinen ajofysiikka ja verkkotulosten vahvistus tulevat myöhemmin. Raketeille, luodeille ja kranaateille on verkkotapahtumien pohja, mutta pelattavia aseita ei vielä ole.
+Huoneen luoja valitsee **Takavalosinfonian** kierrosmäärän tai **Ykkösajan** yhteisen aikaikkunan. Lisäksi voi ajaa harjoittelua. Säännöistä voi valita autotörmäykset, vauriot, huollon ja vakioautot. Palvelin vahvistaa porttien järjestyksen, ajat ja yhteiset autotörmäykset. Auton ajofysiikka toimii yhä pelaajan selaimessa; tämä ei vielä ole huijaussuojattu kilpailupalvelu.
+
+Kun kilpailussa on vähintään kaksi eri kirjautunutta pelaajaa, kolmen parhaan palkinnot ovat 1 500, 900 ja 500. Muut saavat leiman, ja kymmenestä leimasta saa 1 000. Vieraat voivat ajaa mukana ilman tilipalkintoja. **HUOLTO**-alueella pysähtyminen avaa maksullisen korjauksen: hinta vahvistetaan ennen työtä. Vauriot vaikuttavat verkkokilpailussa myös tehoon ja ilmanvastukseen. Verkkotuloksia ei julkaista yksinpelin ennätyslistalle. Raketeille, luodeille ja kranaateille on verkkotapahtumien pohja, mutta pelattavia aseita ei vielä ole.
+
+## Tili ja pilvitallennus
+
+Yläpalkin **Kirjaudu** avaa tilinäkymän. Google-kirjautumisen toteutus on mukana, mutta painike odottaa vielä Google Cloudin sovellustunnuksen käyttöönottoa. Sähköpostilinkki on toistaiseksi ylläpitäjän testikäytössä; julkinen sähköpostikirjautuminen tarvitsee oman lähetyspalvelun.
+
+Kirjautuneen tilille voi tallentaa autot, osat, vauriot, kassan, suosikit ja asetukset. Ensimmäisellä kerralla valitaan, siirretäänkö tämän selaimen talli tilille vai jatketaanko pilvessä olevasta tallista. Ristiriidassa pelaaja valitsee tallennuksen, ja korvattavasta kopiosta jää varmuuskopio selaimeen. Omat paikalliset ghostit eivät vielä siirry pilvitallennuksen mukana. Pelilinkki pysyy samana kaikille.
 
 ## Musiikki
 
