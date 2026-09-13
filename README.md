@@ -10,7 +10,7 @@ Nimimerkin tallentaminen sulkee tilinäkymän ja palauttaa Pajaan. Rautavaaran l
 - S: jarru, hitaassa vauhdissa peruutus
 - A / D: ohjaus
 - Space ajossa: takapyörät lukitseva käsijarru
-- R: kaatunut auto pystyyn samassa paikassa. Kierros, väliajat ja vauriot säilyvät; kello jatkuu.
+- R pohjassa: kaatunut auto kampeaa vähitellen pystyyn lähempää kylkeä pitkin. Vapautus lopettaa avun. Kierros, väliajat ja vauriot säilyvät; kello jatkuu.
 - Esc yksinpelissä: uusi yritys. Yhteispelissä: tilanneoverlay; huoneen jäsenyys säilyy.
 - Tab: interaktiivinen tilanneoverlay auki/kiinni; pelaajat, sijoitukset, kierrokset ja ajat
 - Overlayn Esc: sulje. Space: Ykkösajassa uusi yritys, kierrosajossa takaisin radalle.
@@ -24,6 +24,8 @@ Autokaupan 3D-puoliympyrässä voi selata hiiren rullalla tai vasen/oikea-nuolil
 Kilpailuissa valitaan Kuusirinne, vaativa Rautavaara isoine hyppyineen ja rautatietunneleineen tai sorapintainen Sorala. Jokaisella on oma ennätyslista ja ghostit. Taustalla häivyttyvät valitun radan omasta pelimaailmasta renderöidyt toimintakuvat. Kolmesta kortista pääsee Sooloon, Yhteispeliin sekä omaan autoon ja suosikkeihin. Soolossa näkyvät kilpailun tiedot ja valitun autoluokan kärkiajat; ajasta voi ladata haamun. Oman auton näkymässä voi vaihtaa omistettua autoa tai suosikkikokoonpanoa.
 
 Bodyshopin sivupaneelit valaisevat autoa oikeasti. Koko auton näkymässä hidas kamerakierto alkaa 15 sekunnin tauon jälkeen ja pysähtyy muokkaukseen tai kameran käyttöön. Asetuksissa on oma pidempi esittelykierros. Automaattiset kameraliikkeet voi kytkeä pois kohdasta Kuva & sää. Low, Medium, High ja Ultra muuttavat piirron tarkkuutta, valaistusta, heijastuksia, bloomia ja lumisadetta; oletus on Medium. Samasta kohdasta voi avata koko näytön tilan.
+
+Bodyshopissa osan mallia, omaa väriä ja sijaintia voi kokeilla autossa ennen ostoa. **Asenna** vahvistaa muutoksen; **Peru esikatselu** tai näkymän vaihto peruu luonnoksen. Pajan vaihtoehdot näkyvät auton esikatselussa, tekniikan puuttuvat mallit vielä malliluonnoksina. Korjaushinnat ovat samat Pajassa ja verkkohuollossa: esimerkiksi vakiokonepelti 35 €, pyörä/ripustus 50 € ja moottori 160 €. Päivitysosien korjaus maksaa enemmän. Soralan piennar on loivennettu, eikä kallistuksenvakaaja enää luo ylimääräistä nostetta sisäpyörän keventyessä.
 
 ## Ennätykset ja haamut
 
