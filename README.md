@@ -11,9 +11,13 @@ Peli alkaa **Pajasta**. **Ajamaan** aloittaa uuden lähdön; **Radalle** avaa od
 - R: takaisin radalle, vauriot säilyvät
 - Esc: uusi yritys
 
-Valikot ovat Paja, Kilpailut, Autokauppa, Bodyshop ja Asetukset. Pajan osakortit kelluvat autonäkymässä. Kortti avaa ostot ja säädöt sekä siirtää kameran valittuun kohteeseen. Studio käyttää heijastuksia, valaistusta ja hillittyä bloomia. Kassa näkyy valikoiden yläpalkissa.
+Valikot ovat Paja, Kilpailut, Autokauppa, Bodyshop ja Asetukset. Pajan osakortit kelluvat autonäkymässä. Kortti avaa ostot ja säädöt sekä siirtää kameran valittuun kohteeseen. Studio käyttää heijastuksia, valaistusta ja hillittyä bloomia. Kassa näkyy valikoiden yläpalkissa. Osakorteissa ja ostoehdokkaissa on renderöity esikatselu; vielä puuttuvat erilliset osamallit näkyvät malliluonnoksina.
 
 Bulancian rinnalla ovat Folkkari-buggy, Chevrolette Pikkumörkö ja VNQ-ralliauto. Osia voi vaihtaa autojen kesken, ja vauriot korjataan maksusta. **Paja → Suosikit** tallentaa virityksen nimellä ja palauttaa haluttaessa vakiovarusteet. Kokoonpanojen vaihto säilyttää vauriot. Tallennus toimii omassa selaimessa. Ajaminen on tarkoitettu tietokoneelle ja näppäimistölle tai peliohjaimelle; kosketusohjausta ei vielä ole.
+
+Autokaupan 3D-puoliympyrässä voi selata hiiren rullalla tai vasen/oikea-nuolilla. Alareunan matalasta, vieritettävästä kuvalistasta voi valita auton suoraan. Hinta on oikealla, nimi keskellä ja avattavat ominaisuudet vasemmalla. Tuoksukuuset ovat vakiokokoonpanojen vertailuarvioita, eivät mitattuja suorituskykylukuja.
+
+Kilpailuissa on kolme Kuusirinteen omasta pelimaailmasta renderöityä toimintakuvaa. Bodyshop erottuu omalla maalaustilan valaistuksellaan. Asetuksissa kamera aloittaa esittelykierroksen 15 sekunnin käyttämättömyyden jälkeen. Kosketa autonäkymää palataksesi omaan kameraan; esittelyn voi kytkeä pois kohdasta Kuva & sää.
 
 ## Ennätykset ja haamut
 
