@@ -10,7 +10,7 @@ Nimimerkin tallentaminen sulkee tilinäkymän ja palauttaa Pajaan. Rautavaaran l
 - S: jarru, hitaassa vauhdissa peruutus
 - A / D: ohjaus
 - Space ajossa: takapyörät lukitseva käsijarru
-- R: takaisin radalle, vauriot säilyvät
+- R: kaatunut auto pystyyn samassa paikassa. Kierros, väliajat ja vauriot säilyvät; kello jatkuu.
 - Esc yksinpelissä: uusi yritys. Yhteispelissä: tilanneoverlay; huoneen jäsenyys säilyy.
 - Tab: interaktiivinen tilanneoverlay auki/kiinni; pelaajat, sijoitukset, kierrokset ja ajat
 - Overlayn Esc: sulje. Space: Ykkösajassa uusi yritys, kierrosajossa takaisin radalle.
