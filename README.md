@@ -1,4 +1,4 @@
-# RALLI — pelattava proto
+# Best Racing Game Ever — pelattava proto
 
 [Pelaa selaimessa](https://alluharju-bot.github.io/ralli-play/)
 
@@ -40,7 +40,7 @@ Kun kilpailussa on vähintään kaksi eri kirjautunutta pelaajaa, kolmen parhaan
 
 ## Tili ja pilvitallennus
 
-Yläpalkin **Kirjaudu** avaa tilinäkymän. Google-kirjautumisen toteutus on mukana, mutta painike odottaa vielä Google Cloudin sovellustunnuksen käyttöönottoa. Sähköpostilinkki on toistaiseksi ylläpitäjän testikäytössä; julkinen sähköpostikirjautuminen tarvitsee oman lähetyspalvelun.
+Yläpalkin **Kirjaudu** avaa tilinäkymän. Valitse **Jatka Google-tilillä** kirjautuaksesi omalla Google-tililläsi. Sähköpostilinkki on toistaiseksi ylläpitäjän testikäytössä; julkinen sähköpostikirjautuminen tarvitsee oman lähetyspalvelun.
 
 Kirjautuneen tilille voi tallentaa autot, osat, vauriot, kassan, suosikit ja asetukset. Ensimmäisellä kerralla valitaan, siirretäänkö tämän selaimen talli tilille vai jatketaanko pilvessä olevasta tallista. Ristiriidassa pelaaja valitsee tallennuksen, ja korvattavasta kopiosta jää varmuuskopio selaimeen. Omat paikalliset ghostit eivät vielä siirry pilvitallennuksen mukana. Pelilinkki pysyy samana kaikille.
 
