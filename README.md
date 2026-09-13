@@ -11,7 +11,7 @@ Nimimerkin tallentaminen sulkee tilinäkymän ja palauttaa Pajaan. Rautavaaran l
 - A / D: ohjaus
 - Space ajossa: takapyörät lukitseva käsijarru
 - R: takaisin radalle, vauriot säilyvät
-- Esc: uusi yritys
+- Esc yksinpelissä: uusi yritys. Yhteispelissä: tilanneoverlay; huoneen jäsenyys säilyy.
 - Tab: interaktiivinen tilanneoverlay auki/kiinni; pelaajat, sijoitukset, kierrokset ja ajat
 - Overlayn Esc: sulje. Space: Ykkösajassa uusi yritys, kierrosajossa takaisin radalle.
 
@@ -27,15 +27,19 @@ Bodyshopin sivupaneelit valaisevat autoa oikeasti. Koko auton näkymässä hidas
 
 ## Ennätykset ja haamut
 
-**Ennätykset** avaa yhteisen listan valikoista tai maaliruudusta. Valitse automalli ja Vakio tai Viritetyt. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit lähteä sitä vastaan heti. **Näytä auto** avaa tarkan kokoonpanon, jonka voi tallentaa suosikkeihin.
+**Ennätykset** avaa sivutetun maailmanlistan ja omat 10 parasta. Valitse rata ja rataversio, automalli sekä Vakio tai Viritetyt. Oma sijoitus vie suoraan oikealle sivulle. Aiemmat rataversiot säilyvät listassa. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit lähteä sitä vastaan heti. **Näytä auto** avaa tarkan kokoonpanon, jonka voi tallentaa suosikkeihin.
 
 Nimimerkin luomisen jälkeen uudet kelvolliset yksinpeliajot tallentuvat yhteiseen listaan. Maaliruutu näyttää ajan, ennätyksen, sijoituksen ja lähetyksen tilan. Lähetysvirheen jälkeen voit yrittää uudelleen samassa peli-istunnossa. Ajat perustuvat vielä selaimessa tallennettuihin ajoihin; tuloksia ei ole suojattu huijaamiselta palvelimen ajofysiikalla.
 
 Ajossa ajat ovat oikealla ylhäällä, sijoitus vasemmalla ylhäällä, kartta vasemmalla alhaalla sekä nopeus ja vaihde oikealla alhaalla. Checkpointin tärkein numero on erotus vertailuaikaan.
 
+Yläpalkin suuri profiilinimi avaa tilitiedot. Raha ja katsastuskonttorin leimapassi näkyvät sen vasemmalla. Radanvaihdossa edellinen näkymä säilyy uuden latautumiseen asti.
+
 ## Yhdessä · 2–4 pelaajaa
 
 **Kilpailut → Yhteispeli**. Anna nimimerkki, luo huone ja kopioi kutsulinkki. Muut liittyvät kuusimerkkisellä koodilla. Jokainen valitsee **Valmis**, huoneen luoja **Lähtö**. Muut autot näkyvät omilla kokoonpanoillaan, pyörien liikkeillä ja irronneilla osilla. Tab-overlay näyttää kaikkien tilanteen ajon jatkuessa ja avautuu jokaisen kierroksen päätteeksi. Pelaajan rivi avaa auton tiedot. Vastustajat näkyvät myös kartalla. Väliaikaerot vertaavat kilpailun parhaan kokonaisen kierroksen aikoihin. Harjoituksessa on tällä hetkellä yksi kierros, joten paras kierrosaika syntyy maalissa.
+
+Verkkoyhteyden katketessa avoin pelisivu yrittää paluuta automaattisesti 10 minuutin ajan. Auto odottaa, kilpailukello jatkuu ja paikka säilyy. Vain **Poistutaan yhteispelistä** tai 10 minuutin katko päättää jäsenyyden. Sen jälkeen uusi liittyminen aloittaa uuden osallistumisen. **Kilpailuhistoriasta** näet säilyneet kierrokset ja väliajat myös poistumisen jälkeen. Välilehden sulkemisen tai uudelleenlatauksen jälkeinen automaattinen ajotilan palautus on vielä jatkotyötä.
 
 Huoneen luoja valitsee **Takavalosinfonian** kierrosmäärän tai **Ykkösajan** yhteisen aikaikkunan. Lisäksi voi ajaa harjoittelua. Säännöistä voi valita autotörmäykset, vauriot, huollon ja vakioautot. Palvelin vahvistaa porttien järjestyksen, ajat ja yhteiset autotörmäykset. Auton ajofysiikka toimii yhä pelaajan selaimessa; tämä ei vielä ole huijaussuojattu kilpailupalvelu.
 
