@@ -27,6 +27,14 @@ Bodyshopin sivupaneelit valaisevat autoa oikeasti. Koko auton näkymässä hidas
 
 Bodyshopissa osan mallia, omaa väriä ja sijaintia voi kokeilla autossa ennen ostoa. **Asenna** vahvistaa muutoksen; **Peru esikatselu** tai näkymän vaihto peruu luonnoksen. Pajan vaihtoehdot näkyvät auton esikatselussa, tekniikan puuttuvat mallit vielä malliluonnoksina. Korjaushinnat ovat samat Pajassa ja verkkohuollossa: esimerkiksi vakiokonepelti 35 €, pyörä/ripustus 50 € ja moottori 160 €. Päivitysosien korjaus maksaa enemmän. Soralan piennar on loivennettu, eikä kallistuksenvakaaja enää luo ylimääräistä nostetta sisäpyörän keventyessä.
 
+## Aseharjoittelu · 3 NPC-kuskia
+
+**Kilpailut → Soolo → Aseharjoittelu** avaa paikallisen harjoituksen valitulla radalla. Oma auto on ilmainen, ehjä harjoituskopio: kassa, tallin vauriot ja ennätykset säilyvät. Aino Ajolinja ajaa tarkemmin, Pertti Peittäjä blokkaa ja Rami Rähinä käyttää aseita herkemmin. Kaikki ajavat saman fysiikan kautta; kolarit ja aseosumat siirtävät autoja ja rikkovat osia. NPC:t eivät vielä osallistu verkkohuoneisiin tai palkintokisoihin.
+
+Valitse ase **1–4**, ammu **X** ja käytä nopeutus **F**. **Uusi harjoitus** palauttaa harjoitusautot ja ammukset. **R** vain kampeaa auton pystyyn. Suuret kolarisumat voivat jättää NPC:n jumiin; ajolinjoja ja taistelutasapainoa kehitetään edelleen.
+
+Korivaurioiden teho- ja ilmanvastushaitat vaikuttavat nyt kaikissa ajotiloissa. Koko viritetyn pakoputkiston menetys vähentää vääntöä 25 %, ja puuttuvat koripaneelit kasvattavat ilmanvastusta. Osien todellinen massa poistuu yhä auton mukana. Radanvaihto käyttää itsenäistä siirtymäkuvaa, jotta edellinen näkymä pysyy näkyvissä uuden latautuessa.
+
 ## Ennätykset ja haamut
 
 **Ennätykset** avaa sivutetun maailmanlistan ja omat 10 parasta. Valitse rata ja rataversio, automalli sekä Vakio tai Viritetyt. Oma sijoitus vie suoraan oikealle sivulle. Aiemmat rataversiot säilyvät listassa. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit lähteä sitä vastaan heti. **Näytä auto** avaa tarkan kokoonpanon, jonka voi tallentaa suosikkeihin.
@@ -45,7 +53,7 @@ Verkkoyhteyden katketessa avoin pelisivu yrittää paluuta automaattisesti 10 mi
 
 Huoneen luoja valitsee **Takavalosinfonian** kierrosmäärän tai **Ykkösajan** yhteisen aikaikkunan. Lisäksi voi ajaa harjoittelua. Säännöistä voi valita autotörmäykset, vauriot, huollon ja vakioautot. Palvelin vahvistaa porttien järjestyksen, ajat ja yhteiset autotörmäykset. Auton ajofysiikka toimii yhä pelaajan selaimessa; tämä ei vielä ole huijaussuojattu kilpailupalvelu.
 
-Kun kilpailussa on vähintään kaksi eri kirjautunutta pelaajaa, kolmen parhaan palkinnot ovat 1 500, 900 ja 500. Muut saavat leiman, ja kymmenestä leimasta saa 1 000. Vieraat voivat ajaa mukana ilman tilipalkintoja. **HUOLTO**-sivutie kaartaa maalin jälkeen vasemmalle. Pysähdy ja valitse alareunan oranssi **Korjaa kaikki**, tai avaa osakohtainen erittely. Myös Pajan korjauksissa on sama yhteiskorjauspainike. Vauriot vaikuttavat verkkokilpailussa myös tehoon ja ilmanvastukseen. Verkkotuloksia ei julkaista yksinpelin ennätyslistalle. Raketeille, luodeille ja kranaateille on verkkotapahtumien pohja, mutta pelattavia aseita ei vielä ole.
+Kun kilpailussa on vähintään kaksi eri kirjautunutta pelaajaa, kolmen parhaan palkinnot ovat 1 500, 900 ja 500. Muut saavat leiman, ja kymmenestä leimasta saa 1 000. Vieraat voivat ajaa mukana ilman tilipalkintoja. **HUOLTO**-sivutie kaartaa maalin jälkeen vasemmalle. Pysähdy ja valitse alareunan oranssi **Korjaa kaikki**, tai avaa osakohtainen erittely. Myös Pajan korjauksissa on sama yhteiskorjauspainike. Vauriot vaikuttavat verkkokilpailussa myös tehoon ja ilmanvastukseen. Verkkotuloksia ei julkaista yksinpelin ennätyslistalle. Huoneen luoja voi ottaa Aseprototyypin käyttöön ennen lähtöä. Luodit, raketit, kranaatit ja miinat käyttävät palvelimen vahvistamia osumia ja vaurioita; maasto-osumat käyttävät samaa laskentaa kuin paikallinen NPC-harjoittelu. Aseiden ulkoasu ja tasapaino ovat vielä prototyyppejä.
 
 ## Tili ja pilvitallennus
 
