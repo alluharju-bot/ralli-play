@@ -4,6 +4,8 @@
 
 Peli alkaa **Pajasta**. **Ajamaan** aloittaa uuden lähdön; **Radalle** avaa odotusruudun. Space käynnistää 3–2–1-laskennan. Voit antaa kierroksia jo ennen lähtöä.
 
+Nimimerkin tallentaminen sulkee tilinäkymän ja palauttaa Pajaan. Rautavaaran lopussa on pitkä oikea ja nopea shikaani. Sorala kiertää toiseen suuntaan; oma maali on ison hyppyrin alastulon jälkeen. Soran ja nurmen pito on korjattu, ja nurmi hidastaa suuremmalla vierintävastuksella. Muutetut reitit käyttävät omia uusia ennätysversioitaan.
+
 - W / nuolet: kaasu ja ohjaus
 - S: jarru, hitaassa vauhdissa peruutus
 - A / D: ohjaus
