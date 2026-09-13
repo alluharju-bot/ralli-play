@@ -27,3 +27,6 @@ Alkuperäiset lataukset:
 ## Mahdollinen Lancia-päivitys
 
 [Lancia Delta Integrale HF 1989 / Pole Position](https://sonniss.com/sound-effects-tag/integrale/) on maksullinen, tarkemmin yksilöity Lancia-kirjasto. Sitä ei ole ostettu eikä sen esikuuntelua ole sisällytetty peliin. Moottorikerrokset voidaan myöhemmin korvata lisensoiduilla, samasta autosta mitatuilla idle-/RPM-/kuormatallenteilla. Maksullisten kirjastojen käyttö- ja jakeluehdot tarkistetaan hankinnan yhteydessä.
+# Aseiden äänet
+
+Aseiden laukaukset, osumat ja räjähdykset: [tekijät, lisenssit ja muokkaukset](combat/CREDITS.md).

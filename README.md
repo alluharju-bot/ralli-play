@@ -31,7 +31,7 @@ Bodyshopissa osan mallia, omaa väriä ja sijaintia voi kokeilla autossa ennen o
 
 **Kilpailut → Soolo → Aseharjoittelu** avaa paikallisen harjoituksen valitulla radalla. Oma auto on ilmainen, ehjä harjoituskopio: kassa, tallin vauriot ja ennätykset säilyvät. Aino Ajolinja ajaa tarkemmin, Pertti Peittäjä blokkaa ja Rami Rähinä käyttää aseita herkemmin. Kaikki ajavat saman fysiikan kautta; kolarit ja aseosumat siirtävät autoja ja rikkovat osia. NPC:t eivät vielä osallistu verkkohuoneisiin tai palkintokisoihin.
 
-Valitse ase **1–4**, ammu **X** ja käytä nopeutus **F**. **Uusi harjoitus** palauttaa harjoitusautot ja ammukset. **R** vain kampeaa auton pystyyn. Suuret kolarisumat voivat jättää NPC:n jumiin; ajolinjoja ja taistelutasapainoa kehitetään edelleen.
+Ennen lähtöä voi lainata kaikkia 12 aseversiota: perusaseet, parannettu konekivääri, minigun, rakettisarja, hakeutuva raketti, raskaat kranaatit ja miinat sekä hidastavat/pitoa vievät versiot. Nämä ovat harjoituslainoja; varsinainen aseiden ostotalous tulee myöhemmin. Valitse ase **1–4**, ammu **X** ja käytä nopeutus **F**. **Uusi harjoitus** palauttaa harjoitusautot ja ammukset. **R** vain kampeaa auton pystyyn. Suuret kolarisumat voivat jättää NPC:n jumiin; ajolinjoja ja taistelutasapainoa kehitetään edelleen.
 
 Korivaurioiden teho- ja ilmanvastushaitat vaikuttavat nyt kaikissa ajotiloissa. Koko viritetyn pakoputkiston menetys vähentää vääntöä 25 %, ja puuttuvat koripaneelit kasvattavat ilmanvastusta. Osien todellinen massa poistuu yhä auton mukana. Radanvaihto käyttää itsenäistä siirtymäkuvaa, jotta edellinen näkymä pysyy näkyvissä uuden latautuessa.
 
@@ -39,7 +39,7 @@ Korivaurioiden teho- ja ilmanvastushaitat vaikuttavat nyt kaikissa ajotiloissa. 
 
 **Ennätykset** avaa sivutetun maailmanlistan ja omat 10 parasta. Valitse rata ja rataversio, automalli sekä Vakio tai Viritetyt. Oma sijoitus vie suoraan oikealle sivulle. Aiemmat rataversiot säilyvät listassa. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit lähteä sitä vastaan heti. **Näytä auto** avaa tarkan kokoonpanon, jonka voi tallentaa suosikkeihin.
 
-Nimimerkin luomisen jälkeen uudet kelvolliset yksinpeliajot tallentuvat yhteiseen listaan. Maaliruutu näyttää ajan, ennätyksen, sijoituksen ja lähetyksen tilan. Lähetysvirheen jälkeen voit yrittää uudelleen samassa peli-istunnossa. Ajat perustuvat vielä selaimessa tallennettuihin ajoihin; tuloksia ei ole suojattu huijaamiselta palvelimen ajofysiikalla.
+Nimimerkin luomisen jälkeen uudet kelvolliset yksinpeliajot tallentuvat yhteiseen listaan. Maaliruutu näyttää ajan, ennätyksen, sijoituksen ja lähetyksen tilan. Lähetysvirheen jälkeen paikallinen lähetysjono jatkaa automaattisesti, myös sivun päivityksen jälkeen. Ajat perustuvat vielä selaimessa tallennettuihin ajoihin; tuloksia ei ole suojattu huijaamiselta palvelimen ajofysiikalla.
 
 Ajossa ajat ovat oikealla ylhäällä, sijoitus vasemmalla ylhäällä, kartta vasemmalla alhaalla sekä nopeus ja vaihde oikealla alhaalla. Checkpointin tärkein numero on erotus vertailuaikaan.
 
@@ -49,11 +49,11 @@ Yläpalkin suuri profiilinimi avaa tilitiedot. Raha ja katsastuskonttorin leimap
 
 **Kilpailut → Yhteispeli**. Anna nimimerkki, luo huone ja kopioi kutsulinkki. Muut liittyvät kuusimerkkisellä koodilla. Jokainen valitsee **Valmis**, huoneen luoja **Lähtö**. Muut autot näkyvät omilla kokoonpanoillaan, pyörien liikkeillä ja irronneilla osilla. Tab-overlay näyttää kaikkien tilanteen ajon jatkuessa ja avautuu jokaisen kierroksen päätteeksi. Pelaajan rivi avaa auton tiedot. Vastustajat näkyvät myös kartalla. Väliaikaerot vertaavat kilpailun parhaan kokonaisen kierroksen aikoihin. Harjoituksessa on tällä hetkellä yksi kierros, joten paras kierrosaika syntyy maalissa.
 
-Verkkoyhteyden katketessa avoin pelisivu yrittää paluuta automaattisesti 10 minuutin ajan. Auto odottaa, kilpailukello jatkuu ja paikka säilyy. Vain **Poistutaan yhteispelistä** tai 10 minuutin katko päättää jäsenyyden. Sen jälkeen uusi liittyminen aloittaa uuden osallistumisen. **Kilpailuhistoriasta** näet säilyneet kierrokset ja väliajat myös poistumisen jälkeen. Välilehden sulkemisen tai uudelleenlatauksen jälkeinen automaattinen ajotilan palautus on vielä jatkotyötä.
+Verkkoyhteyden katketessa avoin pelisivu yrittää paluuta automaattisesti 10 minuutin ajan. Auto odottaa, kilpailukello jatkuu ja paikka säilyy. Vain **Poistutaan yhteispelistä** tai 10 minuutin katko päättää jäsenyyden. Sen jälkeen uusi liittyminen aloittaa uuden osallistumisen. **Kilpailuhistoriasta** näet säilyneet kierrokset ja väliajat myös poistumisen jälkeen. Myös sivun uudelleenlatauksen tai välilehden sulkemisen jälkeinen paluu käyttää tallennettua osallistujakohtaista paluutunnusta tämän aikarajan sisällä.
 
 Huoneen luoja valitsee **Takavalosinfonian** kierrosmäärän tai **Ykkösajan** yhteisen aikaikkunan. Lisäksi voi ajaa harjoittelua. Säännöistä voi valita autotörmäykset, vauriot, huollon ja vakioautot. Palvelin vahvistaa porttien järjestyksen, ajat ja yhteiset autotörmäykset. Auton ajofysiikka toimii yhä pelaajan selaimessa; tämä ei vielä ole huijaussuojattu kilpailupalvelu.
 
-Kun kilpailussa on vähintään kaksi eri kirjautunutta pelaajaa, kolmen parhaan palkinnot ovat 1 500, 900 ja 500. Muut saavat leiman, ja kymmenestä leimasta saa 1 000. Vieraat voivat ajaa mukana ilman tilipalkintoja. **HUOLTO**-sivutie kaartaa maalin jälkeen vasemmalle. Pysähdy ja valitse alareunan oranssi **Korjaa kaikki**, tai avaa osakohtainen erittely. Myös Pajan korjauksissa on sama yhteiskorjauspainike. Vauriot vaikuttavat verkkokilpailussa myös tehoon ja ilmanvastukseen. Verkkotuloksia ei julkaista yksinpelin ennätyslistalle. Huoneen luoja voi ottaa Aseprototyypin käyttöön ennen lähtöä. Luodit, raketit, kranaatit ja miinat käyttävät palvelimen vahvistamia osumia ja vaurioita; maasto-osumat käyttävät samaa laskentaa kuin paikallinen NPC-harjoittelu. Aseiden ulkoasu ja tasapaino ovat vielä prototyyppejä.
+Kun kilpailussa on vähintään kaksi eri kirjautunutta pelaajaa, kolmen parhaan palkinnot ovat 1 500, 900 ja 500. Muut saavat leiman, ja kymmenestä leimasta saa 1 000. Vieraat voivat ajaa mukana ilman tilipalkintoja. **HUOLTO**-sivutie kaartaa maalin jälkeen vasemmalle. Pysähdy ja valitse alareunan oranssi **Korjaa kaikki**, tai avaa osakohtainen erittely. Myös Pajan korjauksissa on sama yhteiskorjauspainike. Vauriot vaikuttavat verkkokilpailussa myös tehoon ja ilmanvastukseen. Verkkotuloksia ei julkaista yksinpelin ennätyslistalle. Huoneen luoja voi ottaa Aseprototyypin käyttöön ennen lähtöä. Luodit, raketit, kranaatit ja miinat käyttävät palvelimen vahvistamia osumia ja vaurioita; maasto-osumat käyttävät samaa laskentaa kuin paikallinen NPC-harjoittelu. Verkkopelin perusaseet ja paikallisen harjoituksen aseversiot käyttävät yhteisiä suuliekkejä, valojuovia, kipinöitä, savuvanoja sekä etäisyyden mukaan kuuluvia aseääniä. Päivitettyjen aseiden valinta verkkohuoneisiin tulee myöhemmin.
 
 ## Tili ja pilvitallennus
 
@@ -68,3 +68,27 @@ Yläpalkin soittimessa on toisto/tauko, edellinen/seuraava, saman kappaleen uusi
 Workshop Groove on valikoiden oletuskappale. Ajossa soivat Gearshift Rush, Pulsing Bass, Racing Energy ja Rally Groove. Kappaleet vaihtuvat pehmeällä ristihäivytyksellä. Ajomusiikki jatkuu maaliruudussa ja ennätyslistassa; valikkomusiikki vaihtuu vasta Pajassa tai Kilpailuissa. Musiikki käynnistyy ensimmäisestä käyttäjätoiminnosta tai Toista-painikkeesta.
 
 Tämä repo sisältää valmiin selainjulkaisun. [Äänilähteet ja lisenssit](audio/CREDITS.md) · [Musiikkitiedostot](audio/music/README.md).
+
+
+## Uudet osat, suosikit ja lähdöt
+
+Pajassa on Soramestari-sorarenkaat, Asfalttilinja-renkaat ja Kuivasliksit sekä
+Soravara- ja Asfalttilinja-alustat. Alustan sallittu maavaran säätö näkyy nyt
+myös esikatselussa. Nykyiset radat ovat edelleen talvi- ja soraratoja.
+
+Ladatun haamun autoa voi tarkastella myöhemminkin **Ennätykset → Näytä haamun
+auto & kopioi** tai **Paja → Kokoonpano → Tarkastele ladattua haamua**.
+Tarkastelusta voi tallentaa kokoonpanon suosikkeihin. Kopio ei anna puuttuvien
+autojen tai osien omistusta. Aloituspaikkoja on viisi, ensimmäinen lisäpaikka
+maksaa 10 000 €, seuraava 15 000 € ja niin edelleen. Aiemmat suosikit säilyvät.
+
+NPC- ja verkkolähdöt käyttävät neljää numeroitua ruutua maaliviivan takana.
+NPC:t eivät miinoita lähtöruudukkoa heti. Miina virittyy viiveen jälkeen vasta,
+kun pudottaja on päässyt pois räjähdysalueelta; myöhemmin omaankin virittyneeseen
+miinaan voi osua. 12 auton ruudukko ja sitä varten tarvittavat ratamuutokset on
+suunniteltu jatkoa varten; nykyinen pelaajamäärä on edelleen neljä.
+
+Painonsiirto toimii jo rengaskuormien ja jousituksen kautta. Vakio-Bulancian
+tasaisen lumipinnan lähtökokeessa taka-akselin kuorma kasvoi noin 47 %:sta
+60 %:iin, vaikka korin nousu jäi noin 0,76 asteeseen. Näkyvä liike on siis
+pieni jäykähköllä alustalla; pitoraja muuttuu jo sen mukana.
