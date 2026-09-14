@@ -1,94 +1,69 @@
-# Best Racing Game Ever — pelattava proto
+# Best Racing Game Ever
 
-[Pelaa selaimessa](https://alluharju-bot.github.io/ralli-play/)
+**[Pelaa selaimessa](https://alluharju-bot.github.io/ralli-play/)**
 
-Peli alkaa **Pajasta**. **Ajamaan** aloittaa uuden lähdön; **Radalle** avaa odotusruudun. Space käynnistää 3–2–1-laskennan. Voit antaa kierroksia jo ennen lähtöä.
+Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oikea jäykän kappaleen fysiikka ja irtoavat osat. Tietokone, näppäimistö tai peliohjain; kosketusohjausta ei vielä ole.
 
-Nimimerkin tallentaminen sulkee tilinäkymän ja palauttaa Pajaan. Rautavaaran lopussa on pitkä oikea ja nopea shikaani. Sorala kiertää toiseen suuntaan; oma maali on ison hyppyrin alastulon jälkeen. Soran ja nurmen pito on korjattu, ja nurmi hidastaa suuremmalla vierintävastuksella. Muutetut reitit käyttävät omia uusia ennätysversioitaan.
+## Aloita
 
-- W / nuolet: kaasu ja ohjaus
-- S: jarru, hitaassa vauhdissa peruutus
-- A / D: ohjaus
-- Space ajossa: takapyörät lukitseva käsijarru
-- R pohjassa: kaatunut auto kampeaa vähitellen pystyyn lähempää kylkeä pitkin. Vapautus lopettaa avun. Kierros, väliajat ja vauriot säilyvät; kello jatkuu.
-- Esc yksinpelissä: uusi yritys. Yhteispelissä: tilanneoverlay; huoneen jäsenyys säilyy.
-- Tab: interaktiivinen tilanneoverlay auki/kiinni; pelaajat, sijoitukset, kierrokset ja ajat
-- Overlayn Esc: sulje. Space: Ykkösajassa uusi yritys, kierrosajossa takaisin radalle.
+Peli avautuu **Etusivulle**. **Aloita ajo** käynnistää uuden yrityksen valitulla radalla. **Katso lähtöruutua** avaa odotuksen, jossa Space käynnistää punaisen 3–2–1-laskennan. W/RT antaa kierroksia jo ennen vihreää GO:ta.
 
-Valikot ovat Paja, Kilpailut, Autokauppa, Bodyshop ja Asetukset. Pajan osakortit kelluvat autonäkymässä. Kortti avaa ostot ja säädöt sekä siirtää kameran valittuun kohteeseen. Studio käyttää heijastuksia, valaistusta ja hillittyä bloomia. Kassa näkyy valikoiden yläpalkissa. Osakorteissa ja ostoehdokkaissa on renderöity esikatselu; vielä puuttuvat erilliset osamallit näkyvät malliluonnoksina.
+- W / nuoli ylös: kaasu. A / D tai sivunuolet: ohjaus.
+- S / nuoli alas: jarru ja hitaassa vauhdissa peruutus. Q: peruutus.
+- Space ajossa: takapyörien käsijarru.
+- R pohjassa: auto kampeaa itsensä vähitellen pystyyn. Ei korjausta eikä kierroksen mitätöintiä.
+- Esc: yksinpelissä uusi yritys. Moninpelin Ykkösajassa uusi yritys, kun lähtöaikaa on jäljellä.
+- Tab: moninpelin tilanne, kuljettajat, sijoitukset, kierrokset ja ajat.
+- C: ajokamera. Peliohjaimella RT kaasu, LT jarru, A käsijarru.
 
-Bulancian rinnalla ovat Folkkari-buggy, Chevrolette Pikkumörkö ja VNQ-ralliauto. Osia voi vaihtaa autojen kesken, ja vauriot korjataan maksusta. **Paja → Suosikit** tallentaa virityksen nimellä ja palauttaa haluttaessa vakiovarusteet. Kokoonpanojen vaihto säilyttää vauriot. Tallennus toimii omassa selaimessa. Ajaminen on tarkoitettu tietokoneelle ja näppäimistölle tai peliohjaimelle; kosketusohjausta ei vielä ole.
+## Rakenna auto
 
-Autokaupan 3D-puoliympyrässä voi selata hiiren rullalla tai vasen/oikea-nuolilla. Alareunan matalasta, vieritettävästä kuvalistasta voi valita auton suoraan. Hinta on oikealla, nimi keskellä ja avattavat ominaisuudet vasemmalla. Tuoksukuuset ovat vakiokokoonpanojen vertailuarvioita, eivät mitattuja suorituskykylukuja.
+**Autotalli** sisältää tekniikan, korjaukset, varaston ja suosikit. Osakortti avaa vaihtoehdot ja todellisten arvojen vertailun. Moottorin, turbon, pakoputkiston, vaihteiston, voimansiirron, alustan ja renkaiden osamallit määräävät sallitut säädöt.
 
-Kilpailuissa valitaan Kuusirinne, vaativa Rautavaara isoine hyppyineen ja rautatietunneleineen tai sorapintainen Sorala. Jokaisella on oma ennätyslista ja ghostit. Taustalla häivyttyvät valitun radan omasta pelimaailmasta renderöidyt toimintakuvat. Kolmesta kortista pääsee Sooloon, Yhteispeliin sekä omaan autoon ja suosikkeihin. Soolossa näkyvät kilpailun tiedot ja valitun autoluokan kärkiajat; ajasta voi ladata haamun. Oman auton näkymässä voi vaihtaa omistettua autoa tai suosikkikokoonpanoa.
+Fyysisiä auton osia voi kehittää asteilla **1–5**. Kehitys säilyttää osan ID:n ja kunnon; se ei korjaa vaurioita. Sama osa säilyy varastossa ja autosta toiseen. Eri moottorit, välitysportaat, joustot ja rengasprofiilit sopivat erilaisiin ratoihin. Kaikkien neljän auton osia voi vaihtaa keskenään osapaikan mukaan, luovuttajan mitat säilyttäen.
 
-Bodyshopin sivupaneelit valaisevat autoa oikeasti. Koko auton näkymässä hidas kamerakierto alkaa 15 sekunnin tauon jälkeen ja pysähtyy muokkaukseen tai kameran käyttöön. Asetuksissa on oma pidempi esittelykierros. Automaattiset kameraliikkeet voi kytkeä pois kohdasta Kuva & sää. Low, Medium, High ja Ultra muuttavat piirron tarkkuutta, valaistusta, heijastuksia, bloomia ja lumisadetta; oletus on Medium. Samasta kohdasta voi avata koko näytön tilan.
+**Ulkonäkö** näyttää maalit, kuviot, koristeet, osamallit, värit ja sijainnit yhtenä peruttavana esikatseluna. **Ota käyttöön** hyväksyy muutokset ja ostaa puuttuvat osat. Peruminen tai näkymästä poistuminen säilyttää nykyisen auton.
 
-Bodyshopissa osan mallia, omaa väriä ja sijaintia voi kokeilla autossa ennen ostoa. **Asenna** vahvistaa muutoksen; **Peru esikatselu** tai näkymän vaihto peruu luonnoksen. Pajan vaihtoehdot näkyvät auton esikatselussa, tekniikan puuttuvat mallit vielä malliluonnoksina. Korjaushinnat ovat samat Pajassa ja verkkohuollossa: esimerkiksi vakiokonepelti 35 €, pyörä/ripustus 50 € ja moottori 160 €. Päivitysosien korjaus maksaa enemmän. Soralan piennar on loivennettu, eikä kallistuksenvakaaja enää luo ylimääräistä nostetta sisäpyörän keventyessä.
+**Autokaupassa** ovat Bulancia Nelikulmio, Folkkari Hiekkakirppu, Chevrolette Pikkumörkö ja VNQ Kolmio 323. Selaa hiiren rullalla, nuolilla tai alareunan kuvalistalla. Tuoksukuusilla esitetyt ominaisuudet ovat vakiokokoonpanojen vertailuarvioita.
 
-## Aseharjoittelu · 3 NPC-kuskia
+Korjaukset maksetaan kassasta. **Korjaa kaikki** on korjauslistan alareunassa; erittelyn voi avata, jos rahat riittävät vain osaan. Puuttuvat osat vähentävät massaa mutta heikentävät myös tehoa, ilmanvastusta tai ajettavuutta.
 
-**Kilpailut → Soolo → Aseharjoittelu** avaa paikallisen harjoituksen valitulla radalla. Oma auto on ilmainen, ehjä harjoituskopio: kassa, tallin vauriot ja ennätykset säilyvät. Aino Ajolinja ajaa tarkemmin, Pertti Peittäjä blokkaa ja Rami Rähinä käyttää aseita herkemmin. Kaikki ajavat saman fysiikan kautta; kolarit ja aseosumat siirtävät autoja ja rikkovat osia. NPC:t eivät vielä osallistu verkkohuoneisiin tai palkintokisoihin.
+## Kilpailut ja haamut
 
-Ennen lähtöä voi lainata kaikkia 12 aseversiota: perusaseet, parannettu konekivääri, minigun, rakettisarja, hakeutuva raketti, raskaat kranaatit ja miinat sekä hidastavat/pitoa vievät versiot. Nämä ovat harjoituslainoja; varsinainen aseiden ostotalous tulee myöhemmin. Valitse ase **1–4**, ammu **X** ja käytä nopeutus **F**. **Uusi harjoitus** palauttaa harjoitusautot ja ammukset. **R** vain kampeaa auton pystyyn. Suuret kolarisumat voivat jättää NPC:n jumiin; ajolinjoja ja taistelutasapainoa kehitetään edelleen.
+**Kilpailut → Soolo**: valitse rata ja kilpailu, sitten aloita ajo. Radan selaaminen vaihtaa kuvat ja tiedot; ajomaailma ladataan vasta aloittaessa. Mukana on kymmenen ratavaihtoehtoa: metsä-, louhos-, pelto-, rannikko- ja asfalttiympäristöjä sekä käännettyjä iltaruskoratoja, usvaa ja pyryä.
 
-Korivaurioiden teho- ja ilmanvastushaitat vaikuttavat nyt kaikissa ajotiloissa. Koko viritetyn pakoputkiston menetys vähentää vääntöä 25 %, ja puuttuvat koripaneelit kasvattavat ilmanvastusta. Osien todellinen massa poistuu yhä auton mukana. Radanvaihto käyttää itsenäistä siirtymäkuvaa, jotta edellinen näkymä pysyy näkyvissä uuden latautuessa.
+Ennätyksissä valitaan rata/rataversio, Vakio tai Viritetyt sekä automalli. Maailmanlistalla on yksi paras aika per kuljettaja/rata/luokka/auto; omassa historiassa 10 parasta suoritusta. Lista on sivutettu. **Aiemmat rataversiot säilyvät arkistossa**, joten niiden ajat eivät katoa maaston tai fysiikan päivittyessä.
 
-## Ennätykset ja haamut
+Aikaa painamalla lataat haamun. **Näytä auto** avaa tarkan ajokokoonpanon, jonka voi kopioida suosikkeihin. Kopio ei anna puuttuvien osien omistusta. Haamun oletuksen voi valita omaksi parhaaksi tai nykyisen auton/luokan kärkiajaksi. Käsin valittu vastustaja on yhden yrityksen haaste.
 
-**Ennätykset** avaa sivutetun maailmanlistan ja omat 10 parasta. Valitse rata ja rataversio, automalli sekä Vakio tai Viritetyt. Oma sijoitus vie suoraan oikealle sivulle. Aiemmat rataversiot säilyvät listassa. Kierrosaikaa painamalla lataat kilpailijan haamun ja voit lähteä sitä vastaan heti. **Näytä auto** avaa tarkan kokoonpanon, jonka voi tallentaa suosikkeihin.
+Vakio-luokka määräytyy osamalleista, kehitysasteesta, sijainneista ja säädöistä. **Vauriot eivät muuta vakiota viritetyksi.** Vakiovarusteiden palautus ei korjaa osia ilmaiseksi.
 
-Nimimerkin luomisen jälkeen uudet kelvolliset yksinpeliajot tallentuvat yhteiseen listaan. Maaliruutu näyttää ajan, ennätyksen, sijoituksen ja lähetyksen tilan. Lähetysvirheen jälkeen paikallinen lähetysjono jatkaa automaattisesti, myös sivun päivityksen jälkeen. Ajat perustuvat vielä selaimessa tallennettuihin ajoihin; tuloksia ei ole suojattu huijaamiselta palvelimen ajofysiikalla.
+## Moninpeli · enintään 10 autoa
 
-Ajossa ajat ovat oikealla ylhäällä, sijoitus vasemmalla ylhäällä, kartta vasemmalla alhaalla sekä nopeus ja vaihde oikealla alhaalla. Checkpointin tärkein numero on erotus vertailuaikaan.
+**Kilpailut → Moninpeli → Luo huone** tai **Liity koodilla**. Julkisiin huoneisiin voi liittyä listalta; kutsulinkki sisältää huoneen ja radan. Kaikki valitsevat **Valmis**, huoneen luoja **Lähtö**.
 
-Yläpalkin suuri profiilinimi avaa tilitiedot. Raha ja katsastuskonttorin leimapassi näkyvät sen vasemmalla. Radanvaihdossa edellinen näkymä säilyy uuden latautumiseen asti.
+Huoneessa on enintään kymmenen paikkaa ihmisille ja NPC:ille yhteensä. Isäntä valitsee NPC-määrän, vaikeustason ja kuljettajaprofiilit. NPC:t ajavat samalla fysiikalla, eri ajolinjoilla ja riskinotolla. Niiden fysiikka lasketaan valitun isäntäkoneen selaimessa.
 
-## Yhdessä · 2–4 pelaajaa
+- **Takavalosinfonia**: valittu kierrosmäärä. Lopputulokset tulevat vasta viimeisen kierroksen jälkeen.
+- **Ykkösaika**: yhteinen aikaikkuna ja omat uusintayritykset. Paras kierros ratkaisee. Odottaessa voi seurata toista kuljettajaa.
+- **Harjoittelu**: yhteistä ajamista ilman virallisia ennätyksiä.
 
-**Kilpailut → Yhteispeli**. Anna nimimerkki, luo huone ja kopioi kutsulinkki. Muut liittyvät kuusimerkkisellä koodilla. Jokainen valitsee **Valmis**, huoneen luoja **Lähtö**. Muut autot näkyvät omilla kokoonpanoillaan, pyörien liikkeillä ja irronneilla osilla. Tab-overlay näyttää kaikkien tilanteen ajon jatkuessa ja avautuu jokaisen kierroksen päätteeksi. Pelaajan rivi avaa auton tiedot. Vastustajat näkyvät myös kartalla. Väliaikaerot vertaavat kilpailun parhaan kokonaisen kierroksen aikoihin. Harjoituksessa on tällä hetkellä yksi kierros, joten paras kierrosaika syntyy maalissa.
+Valittavissa ovat muun muassa autotörmäykset, vauriot, huolto, autoluokka sekä **Aseet ja lisäpotku**. Samassa huoneessa voi jatkaa uudelle radalle tai kilpailusarjaan. Palvelin vahvistaa portit, ajat, yhteiset osumat ja tilipalkinnot. Oman auton ajofysiikka on selaimessa, joten proto ei ole huijaussuojattu kilpailupalvelu.
 
-Verkkoyhteyden katketessa avoin pelisivu yrittää paluuta automaattisesti 10 minuutin ajan. Auto odottaa, kilpailukello jatkuu ja paikka säilyy. Vain **Poistutaan yhteispelistä** tai 10 minuutin katko päättää jäsenyyden. Sen jälkeen uusi liittyminen aloittaa uuden osallistumisen. **Kilpailuhistoriasta** näet säilyneet kierrokset ja väliajat myös poistumisen jälkeen. Myös sivun uudelleenlatauksen tai välilehden sulkemisen jälkeinen paluu käyttää tallennettua osallistujakohtaista paluutunnusta tämän aikarajan sisällä.
+Yhteyskatko varaa osallistumisen **10 minuutiksi**. Paluu säilyttää kierrokset, vauriot ja kilpailutilan. Valikoissa käynti ei poista huoneesta. Poistumiseen on erillinen **Poistutaan moninpelistä**. Kilpailuhistoria säilyy myös jäsenyyden päätyttyä.
 
-Huoneen luoja valitsee **Takavalosinfonian** kierrosmäärän tai **Ykkösajan** yhteisen aikaikkunan. Lisäksi voi ajaa harjoittelua. Säännöistä voi valita autotörmäykset, vauriot, huollon ja vakioautot. Palvelin vahvistaa porttien järjestyksen, ajat ja yhteiset autotörmäykset. Auton ajofysiikka toimii yhä pelaajan selaimessa; tämä ei vielä ole huijaussuojattu kilpailupalvelu.
+## Aseharjoittelu
 
-Kun kilpailussa on vähintään kaksi eri kirjautunutta pelaajaa, kolmen parhaan palkinnot ovat 1 500, 900 ja 500. Muut saavat leiman, ja kymmenestä leimasta saa 1 000. Vieraat voivat ajaa mukana ilman tilipalkintoja. **HUOLTO**-sivutie kaartaa maalin jälkeen vasemmalle. Pysähdy ja valitse alareunan oranssi **Korjaa kaikki**, tai avaa osakohtainen erittely. Myös Pajan korjauksissa on sama yhteiskorjauspainike. Vauriot vaikuttavat verkkokilpailussa myös tehoon ja ilmanvastukseen. Verkkotuloksia ei julkaista yksinpelin ennätyslistalle. Huoneen luoja voi ottaa Aseprototyypin käyttöön ennen lähtöä. Luodit, raketit, kranaatit ja miinat käyttävät palvelimen vahvistamia osumia ja vaurioita; maasto-osumat käyttävät samaa laskentaa kuin paikallinen NPC-harjoittelu. Verkkopelin perusaseet ja paikallisen harjoituksen aseversiot käyttävät yhteisiä suuliekkejä, valojuovia, kipinöitä, savuvanoja sekä etäisyyden mukaan kuuluvia aseääniä. Päivitettyjen aseiden valinta verkkohuoneisiin tulee myöhemmin.
+**Kilpailut → Soolo → Harjoittele NPC-kuskeja vastaan → Aseharjoittelu** avaa erillisen harjoituksen kolmea NPC:tä vastaan oman auton kopiolla. Kassa ja tallin vauriot säilyvät. Harjoituksessa voi lainata 12 aseversiota: myös minigunin, rakettisarjan, hakeutuvan raketin sekä erilaisia kranaatteja ja miinoja. **1–4** valitsee aseen, **X** ampuu ja **F** antaa lisäpotkun. Aseiden varsinainen ostotalous on jatkotyötä.
 
-## Tili ja pilvitallennus
+## Tili, musiikki ja asetukset
 
-Yläpalkin **Kirjaudu** avaa tilinäkymän. Valitse **Jatka Google-tilillä** kirjautuaksesi omalla Google-tililläsi. Sähköpostilinkki on toistaiseksi ylläpitäjän testikäytössä; julkinen sähköpostikirjautuminen tarvitsee oman lähetyspalvelun.
+**Kirjaudu → Jatka Google-tilillä**. Ensimmäisellä kirjautumisella valitaan nimimerkki. Suuri profiilinimi avaa tilitiedot ja nimen vaihdon. Autot, osat, kehitysasteet, kunto, kassa, suosikit ja asetukset synkronoituvat automaattisesti. Omat paikalliset haamut eivät vielä siirry pilviprofiilin mukana. Sähköpostikirjautuminen on toistaiseksi ylläpitäjän testikäytössä.
 
-Autot, osat, vauriot, kassa, suosikit ja asetukset synkronoituvat automaattisesti. Ensimmäinen kirjautuminen tuo nykyisen paikallisen pelin tyhjälle tilille tai palauttaa tilillä jo olevan pelin. Tallennus- tai siirtopainikkeita ei tarvita. Muutokset päivittyvät pilveen yhteyden ollessa käytössä; toisen laitteen automuutokset ladataan turvallisesti varikolla. Samanaikaisissa ristiriitaisissa uraostoksissa pilven jo hyväksymä muutos säilyy, ja paikallisesta vaihtoehdosta jää varmuuskopio. Kirjautuessa valitaan näytettävä nimimerkki. Raha näkyy nimen alla, ja nimeä painamalla pääsee tilitietoihin ja vaihtamaan nimeä. Sama nimi näkyy yhteispelissä ja ennätyksissä. Omat paikalliset ghostit eivät vielä siirry pilvitallennuksen mukana. Pelilinkki pysyy samana kaikille.
+Yläpalkin radiossa ovat toisto/tauko, edellinen/seuraava, repeat, kappalevalinta ja voimakkuus. Workshop Groove soi valikoissa; muut kappaleet ajossa. Vaihdot käyttävät pehmeää ristihäivytystä. Ajomusiikki jatkuu maalissa ja vaihtuu valikkomusiikiksi vasta palattaessa valikkoon. Valikon ja ajon välillä vaihdettaessa kappale alkaa alusta.
 
-## Musiikki
+Asetuksissa voi säätää musiikin, moottori/turboäänien ja muiden tehosteiden voimakkuutta erikseen. Low/Medium/High/Ultra muuttavat oikeita piirto- ja tehostebudjetteja. Myös koko näyttö ja automaattisten kameraliikkeiden poisto löytyvät asetuksista. Hiutalesäädin vaikuttaa vain näkyvään lumisateeseen, ei pitoon.
 
-Yläpalkin soittimessa on toisto/tauko, edellinen/seuraava, saman kappaleen uusinta, äänenvoimakkuus ja kappalevalikko. Kapealla näytöllä ja ajossa soitin avautuu nuottipainikkeesta. Asetukset säilyvät auton vaihdossa.
-
-Workshop Groove on valikoiden oletuskappale. Ajossa soivat Gearshift Rush, Pulsing Bass, Racing Energy ja Rally Groove. Kappaleet vaihtuvat pehmeällä ristihäivytyksellä. Ajomusiikki jatkuu maaliruudussa ja ennätyslistassa; valikkomusiikki vaihtuu vasta Pajassa tai Kilpailuissa. Musiikki käynnistyy ensimmäisestä käyttäjätoiminnosta tai Toista-painikkeesta.
+Kampanjan 20 vaiheen, kolmen tähden ja platinahaasteiden dataperusta on tehty. Pelattava kampanja ja kalibroidut tähtiajat tulevat myöhemmin.
 
 Tämä repo sisältää valmiin selainjulkaisun. [Äänilähteet ja lisenssit](audio/CREDITS.md) · [Musiikkitiedostot](audio/music/README.md).
-
-
-## Uudet osat, suosikit ja lähdöt
-
-Pajassa on Soramestari-sorarenkaat, Asfalttilinja-renkaat ja Kuivasliksit sekä
-Soravara- ja Asfalttilinja-alustat. Alustan sallittu maavaran säätö näkyy nyt
-myös esikatselussa. Nykyiset radat ovat edelleen talvi- ja soraratoja.
-
-Ladatun haamun autoa voi tarkastella myöhemminkin **Ennätykset → Näytä haamun
-auto & kopioi** tai **Paja → Kokoonpano → Tarkastele ladattua haamua**.
-Tarkastelusta voi tallentaa kokoonpanon suosikkeihin. Kopio ei anna puuttuvien
-autojen tai osien omistusta. Aloituspaikkoja on viisi, ensimmäinen lisäpaikka
-maksaa 10 000 €, seuraava 15 000 € ja niin edelleen. Aiemmat suosikit säilyvät.
-
-NPC- ja verkkolähdöt käyttävät neljää numeroitua ruutua maaliviivan takana.
-NPC:t eivät miinoita lähtöruudukkoa heti. Miina virittyy viiveen jälkeen vasta,
-kun pudottaja on päässyt pois räjähdysalueelta; myöhemmin omaankin virittyneeseen
-miinaan voi osua. 12 auton ruudukko ja sitä varten tarvittavat ratamuutokset on
-suunniteltu jatkoa varten; nykyinen pelaajamäärä on edelleen neljä.
-
-Painonsiirto toimii jo rengaskuormien ja jousituksen kautta. Vakio-Bulancian
-tasaisen lumipinnan lähtökokeessa taka-akselin kuorma kasvoi noin 47 %:sta
-60 %:iin, vaikka korin nousu jäi noin 0,76 asteeseen. Näkyvä liike on siis
-pieni jäykähköllä alustalla; pitoraja muuttuu jo sen mukana.
