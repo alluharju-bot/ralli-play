@@ -54,6 +54,12 @@ Valittavissa ovat muun muassa autotörmäykset, vauriot, huolto, autoluokka sek�
 
 Yhteyskatko varaa osallistumisen **10 minuutiksi**. Paluu säilyttää kierrokset, vauriot ja kilpailutilan. Valikoissa käynti ei poista huoneesta. Poistumiseen on erillinen **Poistutaan moninpelistä**. Kilpailuhistoria säilyy myös jäsenyyden päätyttyä.
 
+## Vanteet ja nopea autonvalinta
+
+**Ulkonäkö → Vanteet**: valitse neljän vanteen sarja, väri ja maalattu, metallinen, helmiäinen tai timanttinen pinta. Kokeile autossa ennen ostoa. Ostettu sarja sopii kaikkiin omiin autoihin ja tallentuu myös suosikkeihin sekä haamuihin. Kyseessä on kosmeettinen muutos, joka säilyttää Vakio-luokan.
+
+**Kilpailut → Soolo / Moninpeli** tarjoaa suoran suosikkiauton valinnan. Soolossa voit valita 1–9 NPC-kuljettajaa, vaikeustason ja aseet erilliseen harjoitukseen. Harjoituksen kassa, vauriot ja ajat eivät siirry uraan.
+
 ## Aseharjoittelu
 
 **Kilpailut → Soolo → Harjoittele NPC-kuskeja vastaan → Aseharjoittelu** avaa erillisen harjoituksen kolmea NPC:tä vastaan oman auton kopiolla. Kassa ja tallin vauriot säilyvät. Harjoituksessa voi lainata 12 aseversiota: myös minigunin, rakettisarjan, hakeutuvan raketin sekä erilaisia kranaatteja ja miinoja. **1–4** valitsee aseen, **X** ampuu ja **F** antaa lisäpotkun. Aseiden varsinainen ostotalous on jatkotyötä.

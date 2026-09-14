@@ -61,19 +61,22 @@
     "sourceFile": "turbo.mp3",
     "sourceSha256": "a87bb8d8f60a069e3abeffd2c455594028b386597507597e681cf02c95c71690",
     "excerptSeconds": [
-      0.12,
-      0.48
+      0.2,
+      0.8
     ],
     "bandpassHz": [
-      1100,
-      7500
+      1700,
+      8500
     ],
     "pitch": 1,
     "loop": true,
-    "seconds": 0.315,
+    "seconds": 0.535,
     "rms": 0.18,
-    "peak": 0.71208,
-    "sha256": "26e4602bf2ca1af763398a659b7e8b6718c500b776c2a5cd9cb42d91eb4ed31e"
+    "peak": 0.69412,
+    "sha256": "87a0b313c01da6d26a93227f26c7cc24e66dddd14d6fcdb25bdaf830080086f0",
+    "loopCrossfade": "equal-power",
+    "envelopeWindowSeconds": 0.04,
+    "envelopeBoundary": "circular"
   },
   {
     "file": "turbo-release.wav",

@@ -16,6 +16,8 @@ Muokkaukset: mono 44,1 kHz / PCM 16 bit, lyhyet otteet, DC:n poisto, kaistan suo
 
 `manifest.json` sisältää tarkat lähdetiedostot, otteet, muokkaukset ja SHA-256-tunnisteet. `scripts/prepare-audio.py` toistaa käsittelyn. Alkuperäiset isot äänitykset eivät kuulu pelipakettiin.
 
+14.9.2026: jatkuva turbon suhina erotettiin purkausäänestä käyttämällä saman tallenteen tasaisempaa 0,20–0,80 s otetta, 1 700–8 500 Hz kaistaa, tasaisen tehon ristihäivytystä sekä 40 ms voimakkuustasausta silmukan yli. Pelin paine ja kierrosluku ohjaavat suhinnan kasvua. Kaasunnoston venttiiliäänitallenne säilyi ennallaan.
+
 Alkuperäiset lataukset:
 
 - [muted.io:n WAV-paketti](https://mutedio.s3.us-east-2.amazonaws.com/sounds/sample-packs/performance-cars-free-sample-pack-mutedio.zip)
