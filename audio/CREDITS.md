@@ -18,6 +18,8 @@ Muokkaukset: mono 44,1 kHz / PCM 16 bit, lyhyet otteet, DC:n poisto, kaistan suo
 
 14.9.2026: jatkuva turbon suhina erotettiin purkausäänestä käyttämällä saman tallenteen tasaisempaa 0,20–0,80 s otetta, 1 700–8 500 Hz kaistaa, tasaisen tehon ristihäivytystä sekä 40 ms voimakkuustasausta silmukan yli. Pelin paine ja kierrosluku ohjaavat suhinnan kasvua. Kaasunnoston venttiiliäänitallenne säilyi ennallaan.
 
+15.9.2026: saman jatkuvan turbo-otteen kaista muutettiin 650–4 200 Hz:iin, jotta alempi turbosävy säilyy ja terävin kohina vähenee. Pelin jatkuvan turbon vahvistusta laskettiin 8,3 dB. Oma loiva alipäästösuodin avautuu tasaisesti kierrosten mukana 2 400–4 000 Hz:iin. Silmukan tasaisuus ja paineohjaus säilyvät; kaasunnoston venttiilitallennetta tai sen voimakkuutta ei muutettu.
+
 Alkuperäiset lataukset:
 
 - [muted.io:n WAV-paketti](https://mutedio.s3.us-east-2.amazonaws.com/sounds/sample-packs/performance-cars-free-sample-pack-mutedio.zip)
