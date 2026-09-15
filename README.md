@@ -38,7 +38,7 @@ Korjaukset maksetaan kassasta. **Korjaa kaikki** on korjauslistan alareunassa; e
 
 Ennätyksissä valitaan rata/rataversio, Vakio tai Viritetyt sekä automalli. Maailmanlistalla on yksi paras aika per kuljettaja/rata/luokka/auto; omassa historiassa 10 parasta suoritusta. Lista on sivutettu. **Aiemmat rataversiot säilyvät arkistossa**, joten niiden ajat eivät katoa maaston tai fysiikan päivittyessä.
 
-Aikaa painamalla lataat haamun. **Näytä auto** avaa tarkan ajokokoonpanon, jonka voi kopioida suosikkeihin. Kopio ei anna puuttuvien osien omistusta. Haamun oletuksen voi valita omaksi parhaaksi tai nykyisen auton/luokan kärkiajaksi. Käsin valittu vastustaja on yhden yrityksen haaste.
+Aikaa painamalla lataat haamun. **Näytä auto** avaa tarkan ajokokoonpanon, jonka voi kopioida suosikkeihin. Kopio ei anna puuttuvien osien omistusta. Haamun oletukseksi voi valita **Ei haamua**, oman parhaan tai nykyisen auton/luokan kärkiajan. Valinta säilyy seuraaviin ajoihin; aikaerot ja tallennetut haamut säilyvät myös ajettaessa ilman haamua. Käsin valittu vastustaja on yhden yrityksen haaste.
 
 Vakio-luokka määräytyy osamalleista, kehitysasteesta, sijainneista ja säädöistä. **Vauriot eivät muuta vakiota viritetyksi.** Vakiovarusteiden palautus ei korjaa osia ilmaiseksi.
 
@@ -60,7 +60,7 @@ Yhteyskatko varaa osallistumisen **10 minuutiksi**. Paluu säilyttää kierrokse
 
 ## Vanteet ja nopea autonvalinta
 
-**Ulkonäkö → Vanteet**: valitse neljän vanteen sarja, väri ja maalattu, metallinen, helmiäinen tai timanttinen pinta. Kokeile autossa ennen ostoa. Ostettu sarja sopii kaikkiin omiin autoihin ja tallentuu myös suosikkeihin sekä haamuihin. Kyseessä on kosmeettinen muutos, joka säilyttää Vakio-luokan.
+**Ulkonäkö → Vanteet** tuo yhden vanteen suureen lähikuvaan, jossa oma lisävalo korostaa pintaa. Käännä hiirellä ja zoomaa rullalla; **Koko auto** palauttaa yleiskuvan. Valitse neljän vanteen sarja, väri ja maalattu, metallinen, helmiäinen tai timanttinen pinta. Kokeile autossa ennen ostoa. Ostettu sarja sopii kaikkiin omiin autoihin ja tallentuu myös suosikkeihin sekä haamuihin. Kyseessä on kosmeettinen muutos, joka säilyttää Vakio-luokan.
 
 Vannemalleihin kuuluvat **Kolmisakara** (420 €), **Umpikiekko** (560 €), **Pulttikehä** (740 €) sekä uudet **Kruununjalokivi** (1 100 €), **Turbiinikeisari** (1 350 €) ja **Katedraali** (1 600 €). Hinnat koskevat neljän sarjaa. Vanteen kokoa voi säätää 85–135 %: renkaan ulkohalkaisija, pito ja massa säilyvät. Vanhat mallit ja niiden omistus säilyvät.
 
