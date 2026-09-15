@@ -20,6 +20,8 @@ Peli avautuu **Etusivulle**. **Aloita ajo** käynnistää uuden yrityksen valitu
 
 **Autotalli** sisältää tekniikan, korjaukset, varaston ja suosikit. Osakortti avaa vaihtoehdot ja todellisten arvojen vertailun. Moottorin, turbon, pakoputkiston, vaihteiston, voimansiirron, alustan ja renkaiden osamallit määräävät sallitut säädöt.
 
+**Omat osat sopivat autoihin ristiin.** Autotallin **Asenna mistä** näyttää, missä omassa autossa valittu osa on. **VAIHDA OSAT · 0 €** siirtää nykyisen vastaavan osan vastineeksi toiseen autoon. Kunto, kehitysasteet, ID:t ja säädöt säilyvät. Rengassarja vaihtuu kokonaisena. Myös Varasto → Kaikki omat osat tarjoaa suoran vaihdon koriosille. Uutta kopiota ei tarvitse ostaa auton vaihtuessa.
+
 Fyysisiä auton osia voi kehittää asteilla **1–5**. Kehitys säilyttää osan ID:n ja kunnon; se ei korjaa vaurioita. Sama osa säilyy varastossa ja autosta toiseen. Eri moottorit, välitysportaat, joustot ja rengasprofiilit sopivat erilaisiin ratoihin. Kaikkien neljän auton osia voi vaihtaa keskenään osapaikan mukaan, luovuttajan mitat säilyttäen.
 
 **Ulkonäkö** näyttää maalit, kuviot, koristeet, osamallit, värit ja sijainnit yhtenä peruttavana esikatseluna. **Ota käyttöön** hyväksyy muutokset ja ostaa puuttuvat osat. Peruminen tai näkymästä poistuminen säilyttää nykyisen auton.
