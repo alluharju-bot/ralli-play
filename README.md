@@ -13,7 +13,7 @@ Peli avautuu **Etusivulle**. **Aloita ajo** käynnistää uuden yrityksen valitu
 - Space ajossa: takapyörien käsijarru.
 - R pohjassa: auto kampeaa itsensä vähitellen pystyyn. Ei korjausta eikä kierroksen mitätöintiä.
 - Esc: yksinpelissä uusi yritys. Moninpelin Ykkösajassa uusi yritys, kun lähtöaikaa on jäljellä.
-- Tab: moninpelin tilanne, kuljettajat, sijoitukset, kierrokset ja ajat.
+- Tab: kilpailun tilanne, kuljettajat, sijoitukset, kierrokset ja ajat. Toimii myös Soolon NPC-kisassa.
 - C: ajokamera. Peliohjaimella RT kaasu, LT jarru, A käsijarru.
 
 ## Rakenna auto
@@ -30,7 +30,9 @@ Korjaukset maksetaan kassasta. **Korjaa kaikki** on korjauslistan alareunassa; e
 
 ## Kilpailut ja haamut
 
-**Kilpailut → Soolo**: valitse rata ja kilpailu, sitten aloita ajo. Radan selaaminen vaihtaa kuvat ja tiedot; ajomaailma ladataan vasta aloittaessa. Mukana on 12 ratavaihtoehtoa: metsä-, louhos-, pelto-, rannikko- ja asfalttiympäristöjä sekä käännettyjä iltaruskoratoja, usvaa ja pyryä. Uusina ovat kivinen mäkireitti **Kivisola** ja leveä asfalttirata **Vauhtila**.
+**Kilpailut → Soolo**: valitse rata ja 0–9 NPC-vastustajaa. Tavallinen aseeton kisa käyttää omaa autoa, säilyttää vauriot ja hyväksyy kelvollisen pelaajan kierroksen kilpailuaikojen listalle. Radan selaaminen vaihtaa kuvat ja tiedot; ajomaailma ladataan vasta aloittaessa. Mukana on 12 ratavaihtoehtoa: metsä-, louhos-, pelto-, rannikko- ja asfalttiympäristöjä sekä käännettyjä iltaruskoratoja, usvaa ja pyryä. Uusina ovat kivinen mäkireitti **Kivisola** ja leveä asfalttirata **Vauhtila**.
+
+**Kilpailut → Ennätysjahti**: aja paikaltaan ehjällä kopiolla valitsemastasi autosta, ilman uusia vaurioita tai vastustajia. Tallin osien kunto ja rahat säilyvät. Ennätysjahti ja Kilpailuajat ovat erilliset listat, joissa kummassakin on Vakio/Viritetyt, oma paras ja ladattavat haamut. Vanhat ajat säilyvät Kilpailuajoissa.
 
 **Kilpailut → Kampanja**: ensimmäinen luku sisältää seitsemän kilpailua yhdeksää NPC:tä vastaan. Oma aika ratkaisee 1–3 tähteä, yksi tähti avaa seuraavan kilpailun. Uusista tähdistä saa kertapalkinnot; edistyminen ja raha tallentuvat automaattisesti. Vauriot ja törmäykset ovat käytössä, aseet pois. Maalista pääsee suoraan uusintaan tai seuraavaan kilpailuun. Kampanja ei korvaa yleisen ennätyslistan aikoja. Lopullisen 20 vaiheen ja 60 tähden jälkeen avautuvan platinahaasteen jatko on datassa; 13 myöhempää vaihetta ei vielä ole pelattavissa.
 
@@ -44,7 +46,9 @@ Vakio-luokka määräytyy osamalleista, kehitysasteesta, sijainneista ja sääd�
 
 **Kilpailut → Moninpeli → Luo huone** tai **Liity koodilla**. Julkisiin huoneisiin voi liittyä listalta; kutsulinkki sisältää huoneen ja radan. Kaikki valitsevat **Valmis**, huoneen luoja **Lähtö**.
 
-Huoneessa on enintään kymmenen paikkaa ihmisille ja NPC:ille yhteensä. Isäntä valitsee NPC-määrän, vaikeustason ja kuljettajaprofiilit. NPC:t ajavat samalla fysiikalla, eri ajolinjoilla ja riskinotolla. Niiden fysiikka lasketaan valitun isäntäkoneen selaimessa.
+Huoneessa on enintään kymmenen paikkaa ihmisille ja NPC:ille yhteensä. Isäntä valitsee NPC-määrän, vaikeustason ja kuljettajaprofiilit. Ennen lähtöä liittyvä ihminen korvaa heikoimman NPC:n myös täydessä aulassa. NPC:t ajavat samalla fysiikalla, eri ajolinjoilla ja riskinotolla. Niiden fysiikka lasketaan valitun isäntäkoneen selaimessa.
+
+Kuskivalinnan **Arvo uudet kuskit** luo pysyviä nimiä, taitoja ja osakokoonpanoja. Nimeä painamalla näet persoonan, pluspainike tallentaa sen omaan 64 kuskin listaan. Kirjautuneen lista synkronoituu automaattisesti. Palvelin tarkistaa ratojen 10 nopeinta tallennetta kuuden tunnin välein ajolinjasuunnittelun aineistoksi. Ajaja käyttää edelleen tavallista ohjausta ja oman auton fysiikkaa; päivitys ei takaa joka kierrokselle parempaa aikaa.
 
 - **Takavalosinfonia**: valittu kierrosmäärä. Lopputulokset tulevat vasta viimeisen kierroksen jälkeen.
 - **Ykkösaika**: yhteinen aikaikkuna ja omat uusintayritykset. Paras kierros ratkaisee. Odottaessa voi seurata toista kuljettajaa.
@@ -58,7 +62,9 @@ Yhteyskatko varaa osallistumisen **10 minuutiksi**. Paluu säilyttää kierrokse
 
 **Ulkonäkö → Vanteet**: valitse neljän vanteen sarja, väri ja maalattu, metallinen, helmiäinen tai timanttinen pinta. Kokeile autossa ennen ostoa. Ostettu sarja sopii kaikkiin omiin autoihin ja tallentuu myös suosikkeihin sekä haamuihin. Kyseessä on kosmeettinen muutos, joka säilyttää Vakio-luokan.
 
-**Kilpailut → Soolo / Moninpeli** tarjoaa suoran suosikkiauton valinnan. Soolossa voit valita 1–9 NPC-kuljettajaa, vaikeustason ja aseet erilliseen harjoitukseen. Harjoituksen kassa, vauriot ja ajat eivät siirry uraan.
+Uudet mallit: **Kolmisakara** (420 €), lähes umpinainen **Umpikiekko** (560 €) ja syvä **Pulttikehä** (740 €). Vanhat mallit ja niiden omistus säilyvät.
+
+**Kilpailut → Soolo / Ennätysjahti / Moninpeli** tarjoaa suoran suosikkiauton valinnan. Soolossa voi valita NPC-määrän, vaikeustason ja tallennettuja persoonia. Aseharjoittelu on erillinen tila, jonka kassa, vauriot ja ajat eivät siirry uraan.
 
 ## Aseharjoittelu
 
