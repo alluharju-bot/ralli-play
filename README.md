@@ -62,7 +62,11 @@ Yhteyskatko varaa osallistumisen **10 minuutiksi**. Paluu säilyttää kierrokse
 
 **Ulkonäkö → Vanteet**: valitse neljän vanteen sarja, väri ja maalattu, metallinen, helmiäinen tai timanttinen pinta. Kokeile autossa ennen ostoa. Ostettu sarja sopii kaikkiin omiin autoihin ja tallentuu myös suosikkeihin sekä haamuihin. Kyseessä on kosmeettinen muutos, joka säilyttää Vakio-luokan.
 
-Uudet mallit: **Kolmisakara** (420 €), lähes umpinainen **Umpikiekko** (560 €) ja syvä **Pulttikehä** (740 €). Vanhat mallit ja niiden omistus säilyvät.
+Vannemalleihin kuuluvat **Kolmisakara** (420 €), **Umpikiekko** (560 €), **Pulttikehä** (740 €) sekä uudet **Kruununjalokivi** (1 100 €), **Turbiinikeisari** (1 350 €) ja **Katedraali** (1 600 €). Hinnat koskevat neljän sarjaa. Vanteen kokoa voi säätää 85–135 %: renkaan ulkohalkaisija, pito ja massa säilyvät. Vanhat mallit ja niiden omistus säilyvät.
+
+**Ulkonäkö → Koristeet** liu'uttaa kameran tuulilasin eteen samaan autonäkymään. Uusina mukana ovat **Rata-ankka**, **Taskupokaali** ja **Pikkuturbo**. Kaikki heiluvat auton liikkeestä.
+
+Pajan putkistoilla on eri savuvärit. Tehokkaassa kokoonpanossa ralli- ja kisaputkisto voivat näyttää lyhyen liekin kuormituksen jälkeisellä kaasunnostolla tai ylösvaihdolla. Pelkkä kaasun naputtelu ei riitä.
 
 **Kilpailut → Soolo / Ennätysjahti / Moninpeli** tarjoaa suoran suosikkiauton valinnan. Soolossa voi valita NPC-määrän, vaikeustason ja tallennettuja persoonia. Aseharjoittelu on erillinen tila, jonka kassa, vauriot ja ajat eivät siirry uraan.
 
