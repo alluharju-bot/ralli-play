@@ -26,7 +26,11 @@ Fyysisiä auton osia voi kehittää asteilla **1–5**. Kehitys säilyttää osa
 
 **Ulkonäkö** näyttää maalit, kuviot, koristeet, osamallit, värit ja sijainnit yhtenä peruttavana esikatseluna. **Ota käyttöön** hyväksyy muutokset ja ostaa puuttuvat osat. Peruminen tai näkymästä poistuminen säilyttää nykyisen auton.
 
+**Ulkonäkö → Värit** tarjoaa nyt myös epäsymmetrisen raidan, kolmiraidat, ruutulipun, salamat, viistot ja keihäänkärjen. Kuviolle valitaan oma väri, pinta (maalattu, metalli, hile, helmiäinen tai timantti) ja tekstuuri (sileä, harjattu, kudos tai hunajakenno). Kuvio kiiltää valon ja katselukulman mukana erillään korin maalista.
+
 **Autokaupassa** ovat Bulancia Nelikulmio, Folkkari Hiekkakirppu, Chevrolette Pikkumörkö ja VNQ Kolmio 323. Selaa hiiren rullalla, nuolilla tai alareunan kuvalistalla. Tuoksukuusilla esitetyt ominaisuudet ovat vakiokokoonpanojen vertailuarvioita.
+
+Uuden Bulancian koetasapaino käyttää 1,6 l vapaasti hengittävää moottoria ja lyhyitä välityksiä: noin 120 km/h tasaisella testialustalla, 0–60 km/h noin 4,2 sekuntia. Jo asennetut ja ostetut vanhat osat säilyvät. Palauta vakiovarusteet valitsee uuden tehdaskokoonpanon.
 
 Korjaukset maksetaan kassasta. **Korjaa kaikki** on korjauslistan alareunassa; erittelyn voi avata, jos rahat riittävät vain osaan. Puuttuvat osat vähentävät massaa mutta heikentävät myös tehoa, ilmanvastusta tai ajettavuutta.
 
@@ -81,6 +85,8 @@ Pajan putkistoilla on eri savuvärit. Tehokkaassa kokoonpanossa ralli- ja kisapu
 **Kirjaudu → Jatka Google-tilillä**. Ensimmäisellä kirjautumisella valitaan nimimerkki. Suuri profiilinimi avaa tilitiedot ja nimen vaihdon. Autot, osat, kehitysasteet, kunto, kassa, suosikit ja asetukset synkronoituvat automaattisesti. Omat paikalliset haamut eivät vielä siirry pilviprofiilin mukana. Sähköpostikirjautuminen on toistaiseksi ylläpitäjän testikäytössä.
 
 Yläpalkin radiossa ovat toisto/tauko, edellinen/seuraava, repeat, kappalevalinta ja voimakkuus. Workshop Groove soi valikoissa; muut kappaleet ajossa. Vaihdot käyttävät pehmeää ristihäivytystä. Ajomusiikki jatkuu maalissa ja vaihtuu valikkomusiikiksi vasta palattaessa valikkoon. Valikon ja ajon välillä vaihdettaessa kappale alkaa alusta.
+
+**Asetukset → Ohjaimet**: luistonesto **Kevyt / Pois** ja näppäimistö **Pehmeä / Suora**. Kevyt apu hillitsee sutimista ja väistyy käsijarrulla tai tarkoituksellisessa luistossa; se ei suorista autoa. Analogisen ohjaimen liipaisimet ja sauva säilyvät analogisina. Valinnat synkronoituvat automaattisesti.
 
 Asetuksissa voi säätää musiikin, moottori/turboäänien ja muiden tehosteiden voimakkuutta erikseen. Low/Medium/High/Ultra muuttavat oikeita piirto- ja tehostebudjetteja. Myös koko näyttö ja automaattisten kameraliikkeiden poisto löytyvät asetuksista. Hiutalesäädin vaikuttaa vain näkyvään lumisateeseen, ei pitoon.
 
