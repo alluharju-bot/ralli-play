@@ -36,3 +36,7 @@ Alkuperäiset lataukset:
 Aseiden laukaukset, osumat ja räjähdykset: [tekijät, lisenssit ja muokkaukset](combat/CREDITS.md).
 
 Irto-osien metallinen kolina käyttää lisäksi olemassa olevaa combat/grenade.wav-tallennetta (Kenney Impact Sounds, CC0), jonka lähde ja muokkaus on kirjattu [aseäänien tekijätietoihin](combat/CREDITS.md). Sama lyhyt metallinen lähde soitetaan osan irrotuksesta ja riittävän voimakkaasta myöhemmästä maahan osumisesta rajatulla yhtäaikaisten äänien määrällä.
+
+## Pintojen äänet
+
+Pintakohtaiset rengas- ja vesikerrokset: [lähteet, lisenssit ja muokkaukset](surfaces/CREDITS.md).

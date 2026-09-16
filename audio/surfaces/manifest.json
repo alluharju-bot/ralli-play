@@ -1,0 +1,23 @@
+[
+  {
+    "file": "skid.wav",
+    "source": "skid.mp3",
+    "start": 0.2,
+    "end": 1.25,
+    "crossfadeSeconds": 0.1,
+    "sha256": "d48dc9aabd984660532fb314b6b9c62e4f7b387337ea587dab7260d179bb04e4"
+  },
+  {
+    "file": "gravel.wav",
+    "source": "gravel.mp3",
+    "start": 0.4,
+    "end": 3.6,
+    "crossfadeSeconds": 0.1,
+    "sha256": "c251aff72d978f46775881b50a406e4338d9033d11fea24b25ee64885480c4d9"
+  },
+  {
+    "file": "water.ogg",
+    "source": "water-splash-slime-sfx.zip / loop_water_02.ogg",
+    "sha256": "2a39d9c6d3069e94f15b092f15bcfac7de54ca1bdc7c0b9a02b151bda6f3a29d"
+  }
+]

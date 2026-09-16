@@ -4,6 +4,8 @@
 
 Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oikea jäykän kappaleen fysiikka ja irtoavat osat. Tietokone, näppäimistö tai peliohjain; kosketusohjausta ei vielä ole.
 
+**16.9.2026 · Pinnat ja ajamisen korjaukset.** Rataeditorissa voi maalata eri materiaaleja, muodostaa vettä valittuun korkeuteen, kallistaa kaarteita ja säätää aurinkoa kellolla. Asfaltti saa tarkat reunat, kumijäljet ja rengasäänet; nurmi oman ruohosuihkun. Suosikin voi päivittää erikseen, ja renkaiden kehitys näkyy pitomittarissa. Vaihteisto huomioi kiihdytyksen ja kaarrekuorman, ripustukset sietävät pieniä iskuja paremmin ja Sataman sillan fysiikkakuormaa on kevennetty. Ajofysiikka 13 aloittaa uudet ennätyslistat; vanhat ajat säilyvät arkistossa. Lähdeversio: `17cf6ae`.
+
 ## Aloita
 
 Peli avautuu **Etusivulle**. **Aloita ajo** käynnistää uuden yrityksen valitulla radalla. **Katso lähtöruutua** avaa odotuksen, jossa Space käynnistää punaisen 3–2–1-laskennan. W/RT antaa kierroksia jo ennen vihreää GO:ta.
