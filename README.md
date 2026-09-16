@@ -90,11 +90,17 @@ Yläpalkin radiossa ovat toisto/tauko, edellinen/seuraava, repeat, kappalevalint
 
 Asetuksissa voi säätää musiikin, moottori/turboäänien ja muiden tehosteiden voimakkuutta erikseen. Low/Medium/High/Ultra muuttavat oikeita piirto- ja tehostebudjetteja. Myös koko näyttö ja automaattisten kameraliikkeiden poisto löytyvät asetuksista. Hiutalesäädin vaikuttaa vain näkyvään lumisateeseen, ei pitoon.
 
+## Uudet eritasoradat
+
+**Louhos**, **Satama** ja **Vaaratie** lisäävät soraisen ylikulkuhypyn, asfalttisen satamahallin ja lumisen laaksosillan. Sillan päällä ja alla voi ajaa yhtä aikaa; myös NPC:t, ajanotto ja verkkopeli tunnistavat ajokorkeuden. Vanhat radat ja ennätykset säilyvät.
+
 ## Rataeditori
 
 **Etusivu → Rataeditori** avaa oman luonnoksen 3D-maisemassa. Oikea hiirennappi kiertää kameraa, keskinappi siirtää ja rulla lähentää. Yläkuva on edelleen valittavissa.
 
 Valitse reittipiste ja raahaa oranssia korkeuskahvaa tai anna tien korkeus metreinä. Tien alla oleva oikea maasto muuttuu samalla. Nosta, laske, pehmennä tai tasaa maastoa siveltimillä; alareunan profiili näyttää korkeuserot. Lähtöalueen ja huoltokaistan tasaukset näkyvät oransseina.
+
+**Silta**- ja **Tunneli**-työkaluilla lisäät erillisen ajokannen tai katetun tieosuuden. Säädä rakenteen korkeutta, pituutta ja ramppeja; sillan nostaminen ei nosta sen alla olevaa maata. Kannelle asetettu kaluste seuraa siltaa. Uudet eritasoluonnokset tallentuvat v2-muodossa; aiemmat v1-luonnokset avautuvat edelleen. Tunneli on tässä versiossa katettu väylä, ei kallioon kaivettu aukko.
 
 Kalustetyökalu näyttää valitun osan maisemassa ennen asettamista. Q/E kääntää, klikkaus asettaa, Esc peruu esikatselun. Maan pinnalle kuuluvat kalusteet seuraavat maastoa. Punainen esikatselu varoittaa tiellä tai huollossa olevasta esteestä. Kumoaminen, tiedoston vienti/tuonti ja eristetty koeajo säilyvät. Koeajo ei muuta omaa autoa, rahaa tai ennätyksiä. Luonnoksia ei vielä voi julkaista yleiseen kilpailulistaan.
 
