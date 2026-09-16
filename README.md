@@ -4,6 +4,8 @@
 
 Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oikea jäykän kappaleen fysiikka ja irtoavat osat. Tietokone, näppäimistö tai peliohjain; kosketusohjausta ei vielä ole.
 
+**17.9.2026 · Renkaiden palaute, rullazoom ja vannemateriaalit.** Asfalttijäljet ja läpikuultava savu syntyvät voimakkaasta luistosta; nurmi saa pienet ruohopartikkelit ja ruskeat jäljet. Vaihteisto pudottaa ajoissa pienemmälle kovassa mutkajarrutuksessa. Hiiren rulla säätää seurantakameran etäisyyttä. Vanteisiin saa kuvioiden pinnat ja tekstuurit sekä Kulta-, Smaragdi-, Ametisti- ja Peili-materiaalit. Korin tai kuvion värin voi kopioida vanteille. Uudet arvomateriaalit ovat toistaiseksi maksuttomia; nykyisten vanteiden ja pintojen omistukset säilyvät. Ajofysiikka 14, vanhat ennätykset arkistossa. Lähdeversio: `032b684`.
+
 **16.9.2026 · Pinnat ja ajamisen korjaukset.** Rataeditorissa voi maalata eri materiaaleja, muodostaa vettä valittuun korkeuteen, kallistaa kaarteita ja säätää aurinkoa kellolla. Asfaltti saa tarkat reunat, kumijäljet ja rengasäänet; nurmi oman ruohosuihkun. Suosikin voi päivittää erikseen, ja renkaiden kehitys näkyy pitomittarissa. Vaihteisto huomioi kiihdytyksen ja kaarrekuorman, ripustukset sietävät pieniä iskuja paremmin ja Sataman sillan fysiikkakuormaa on kevennetty. Ajofysiikka 13 aloittaa uudet ennätyslistat; vanhat ajat säilyvät arkistossa. Lähdeversio: `17cf6ae`.
 
 ## Aloita
@@ -16,6 +18,7 @@ Peli avautuu **Etusivulle**. **Aloita ajo** käynnistää uuden yrityksen valitu
 - R pohjassa: auto kampeaa itsensä vähitellen pystyyn. Ei korjausta eikä kierroksen mitätöintiä.
 - Esc: yksinpelissä uusi yritys. Moninpelin Ykkösajassa uusi yritys, kun lähtöaikaa on jäljellä.
 - Tab: kilpailun tilanne, kuljettajat, sijoitukset, kierrokset ja ajat. Toimii myös Soolon NPC-kisassa.
+- Hiiren rulla ajonäkymässä: seurantakameran etäisyys.
 - C: ajokamera. Peliohjaimella RT kaasu, LT jarru, A käsijarru.
 
 ## Rakenna auto
