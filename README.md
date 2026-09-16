@@ -1,8 +1,10 @@
-# Best Racing Game Ever
+# The Greatest Racing Game
 
 **[Pelaa selaimessa](https://alluharju-bot.github.io/ralli-play/)**
 
 Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oikea jäykän kappaleen fysiikka ja irtoavat osat. Tietokone, näppäimistö tai peliohjain; kosketusohjausta ei vielä ole.
+
+**17.9.2026 · Uusi varikko ja muistavat pelaajapolut.** Hiilenharmaa, lämmin oranssi, ajanottotypografia ja oma auto muodostavat pelin uuden ilmeen. Etusivu näyttää seuraavan lähdön ja radan viivapiirroksen. Ajosta palataan omaan pelimuotoon ja rataan; autonvaihto, asetukset ja sivupäivitys säilyttävät valmistelun. Vanteiden metalli, helmiäinen ja timantti saavat kuvioiden materiaalikäsittelyn. Kampanjan seitsemän kilpailua on kytketty nykyisiin ratoihin uusilla vertailumittauksilla; tähtirajat ja ansaitut palkinnot säilyvät. Lähdeversio: `0d6d033`.
 
 **17.9.2026 · Renkaiden palaute, rullazoom ja vannemateriaalit.** Asfalttijäljet ja läpikuultava savu syntyvät voimakkaasta luistosta; nurmi saa pienet ruohopartikkelit ja ruskeat jäljet. Vaihteisto pudottaa ajoissa pienemmälle kovassa mutkajarrutuksessa. Hiiren rulla säätää seurantakameran etäisyyttä. Vanteisiin saa kuvioiden pinnat ja tekstuurit sekä Kulta-, Smaragdi-, Ametisti- ja Peili-materiaalit. Korin tai kuvion värin voi kopioida vanteille. Uudet arvomateriaalit ovat toistaiseksi maksuttomia; nykyisten vanteiden ja pintojen omistukset säilyvät. Ajofysiikka 14, vanhat ennätykset arkistossa. Lähdeversio: `032b684`.
 
@@ -10,13 +12,15 @@ Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oike
 
 ## Aloita
 
-Peli avautuu **Etusivulle**. **Aloita ajo** käynnistää uuden yrityksen valitulla radalla. **Katso lähtöruutua** avaa odotuksen, jossa Space käynnistää punaisen 3–2–1-laskennan. W/RT antaa kierroksia jo ennen vihreää GO:ta.
+Peli avautuu **Etusivulle**, joka näyttää seuraavan lähdön ja oman auton. Ajopainike käynnistää valitun soolokilpailun tai ennätysjahdin; kampanjassa ja moninpelissä se avaa valmistelun. **Muuta lähtöä** avaa saman valmistelun, **Kilpailut** tarjoaa pelimuodot. W/RT antaa kierroksia jo punaisen 3–2–1-laskennan aikana ennen vihreää GO:ta.
+
+Ajosta ja tuloksista palataan samaan pelimuotoon ja ajettuun rataan. Valmistelusta avattu autotalli, autokauppa, ulkonäkö tai asetukset tarjoaa takaisin-painikkeen. Rata, vastustajat ja ennätyslistan suodattimet säilyvät myös sivupäivityksessä. Korjaamolinkki näkyy etusivulla auton tarvitessa huoltoa.
 
 - W / nuoli ylös: kaasu. A / D tai sivunuolet: ohjaus.
 - S / nuoli alas: jarru ja hitaassa vauhdissa peruutus. Q: peruutus.
 - Space ajossa: takapyörien käsijarru.
 - R pohjassa: auto kampeaa itsensä vähitellen pystyyn. Ei korjausta eikä kierroksen mitätöintiä.
-- Esc: yksinpelissä uusi yritys. Moninpelin Ykkösajassa uusi yritys, kun lähtöaikaa on jäljellä.
+- Esc: valikoissa askel taaksepäin; yksinpeliajossa uusi yritys. Moninpelin Ykkösajassa uusi yritys, kun lähtöaikaa on jäljellä.
 - Tab: kilpailun tilanne, kuljettajat, sijoitukset, kierrokset ja ajat. Toimii myös Soolon NPC-kisassa.
 - Hiiren rulla ajonäkymässä: seurantakameran etäisyys.
 - C: ajokamera. Peliohjaimella RT kaasu, LT jarru, A käsijarru.

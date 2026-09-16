@@ -1,6 +1,6 @@
 # Weapon sound sources
 
-These sounds are distributed with Best Racing Game Ever. Each source was
+These sounds are distributed with The Greatest Racing Game. Each source was
 downloaded from the author's OpenGameArt entry or Kenney's own asset site.
 
 | Game file | Original / author | License and source |
