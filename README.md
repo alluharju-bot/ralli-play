@@ -4,6 +4,8 @@
 
 Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oikea jäykän kappaleen fysiikka ja irtoavat osat. Tietokone, näppäimistö tai peliohjain; kosketusohjausta ei vielä ole.
 
+**17.9.2026 · Oma talli ja yhteinen päänäkymä.** Nelipaikkainen halliprototyyppi näyttää omat autot niiden osilla, maaleilla ja vaurioilla. Vasemman reunan Oma talli / Kilpailut / Paja / Autokauppa / Ulkonäkö / Asetukset vaihtaa paneelit samassa ympäristössä. Auton painaminen on katselua; **Ota ajoon** vaihtaa ajettavan auton. Yksi paikka sisältyy talliin, seuraavat maksavat 1 200 / 2 400 / 4 000 €. Vanhat autot saavat paikkansa maksutta. Moottori, vanteet ja tekniikkaosa näkyvät telineissä, joista pääsee varastoon tai vanteiden muokkaukseen. Lopullinen hallimalli tehdään myöhemmin SketchUpissa. Lähdeversio: `68658e0`.
+
 **17.9.2026 · Airtime, viisi tähteä ja yritysvalikko.** Lentopisteet kertyvät jo ilmassa ja numerot elävät suorituksen mukana. Kelvollinen hyppy maalin yli antaa heti täydellisen alastulon 1 200 pisteen bonuksen; vain ennen maalia tapahtuva alastulo arvioidaan. Maaliruudun yhteenveto näyttää pisteet ja tulot. Ajopäiväkirjassa on nyt 11 saavutusta × 5 tähteä, vanhat palkintovanteet sekä uudet takaperin portista-, pelaaja-/NPC-osuma-, jarrutus-, katolle päätymis- ja puuosumatilastot. Soolon ja Ykkösajan Esc palauttaa lähtöön ja avaa valikon **Uusi kierros / Korjaa auto / Palaa talliin**; uusi lähtö alkaa vasta napista. Tab näyttää kilpailijat myös tulos- ja yritysvalikosta. Uusien tähtien palkinnot sekä rata- ja autokohtaiset saavutusperheet tulevat myöhemmin. Lähdeversio: `7d83752`.
 
 **17.9.2026 · Arcade, tilastot ja saavutukset.** Driftit, hypyt ja arvioidut alastulot, siistit/läheltä tehdyt ohitukset sekä yhden ja kahden pyörän temput tuovat tyylipisteitä. 100 pistettä = 1 €, rajattu ketjukerroin ja selvästi suurempi palkinto täydellisestä alastulosta. Hyppy vaatii vähintään 5 m, lähtönopeuden 25 km/h ja alastulon 20 km/h; vakautta arvioidaan vielä 0,8 s kosketuksen jälkeen. Varikon **Tilastot & saavutukset** näyttää eliniän ja autokohtaiset luvut, kahdeksan saavutusta sekä avattavat Kultasiipi-, Kultakierre- ja Platinapari-vanteet. Oma auto ja vauriot käytössä: soolo, kampanja ja verkkokilpailut kerryttävät etenemistä; ennätysjahti ja harjoittelu antavat harjoituspisteitä. Tilastot alkavat tästä päivityksestä. Ajofysiikka 14 ja vanhat ennätykset säilyvät. Lähdeversio: `4924564`.
@@ -20,7 +22,7 @@ Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oike
 
 ## Aloita
 
-Peli avautuu **Etusivulle**, joka näyttää seuraavan lähdön ja oman auton. Ajopainike käynnistää valitun soolokilpailun tai ennätysjahdin; kampanjassa ja moninpelissä se avaa valmistelun. **Muuta lähtöä** avaa saman valmistelun, **Kilpailut** tarjoaa pelimuodot. W/RT antaa kierroksia jo punaisen 3–2–1-laskennan aikana ennen vihreää GO:ta.
+Peli avautuu **Omaan talliin**, joka näyttää omat autot ja seuraavan lähdön. Ajopainike käynnistää valitun soolokilpailun tai ennätysjahdin; kampanjassa ja moninpelissä se avaa valmistelun. **Muuta lähtöä** avaa saman valmistelun, **Kilpailut** tarjoaa pelimuodot. W/RT antaa kierroksia jo punaisen 3–2–1-laskennan aikana ennen vihreää GO:ta.
 
 Ajosta ja tuloksista palataan samaan pelimuotoon ja ajettuun rataan. Valmistelusta avattu autotalli, autokauppa, ulkonäkö tai asetukset tarjoaa takaisin-painikkeen. Rata, vastustajat ja ennätyslistan suodattimet säilyvät myös sivupäivityksessä. Korjaamolinkki näkyy etusivulla auton tarvitessa huoltoa.
 
