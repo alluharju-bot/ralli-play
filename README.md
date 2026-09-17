@@ -4,6 +4,8 @@
 
 Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oikea jäykän kappaleen fysiikka ja irtoavat osat. Tietokone, näppäimistö tai peliohjain; kosketusohjausta ei vielä ole.
 
+**17.9.2026 · Korjauspainikkeen kontrasti.** Autotallin Korjaus-painike näkyy taas oranssina myös avattuna. Tumma yleistausta oli peittänyt sen korostuksen ja jättänyt tekstin vaikeaksi lukea. Korjausten toiminta ja hinnoittelu säilyvät. Lähdeversio: `30c2eb4`.
+
 **17.9.2026 · Uusi varikko ja muistavat pelaajapolut.** Hiilenharmaa, lämmin oranssi, ajanottotypografia ja oma auto muodostavat pelin uuden ilmeen. Etusivu näyttää seuraavan lähdön ja radan viivapiirroksen. Ajosta palataan omaan pelimuotoon ja rataan; autonvaihto, asetukset ja sivupäivitys säilyttävät valmistelun. Vanteiden metalli, helmiäinen ja timantti saavat kuvioiden materiaalikäsittelyn. Kampanjan seitsemän kilpailua on kytketty nykyisiin ratoihin uusilla vertailumittauksilla; tähtirajat ja ansaitut palkinnot säilyvät. Lähdeversio: `0d6d033`.
 
 **17.9.2026 · Renkaiden palaute, rullazoom ja vannemateriaalit.** Asfalttijäljet ja läpikuultava savu syntyvät voimakkaasta luistosta; nurmi saa pienet ruohopartikkelit ja ruskeat jäljet. Vaihteisto pudottaa ajoissa pienemmälle kovassa mutkajarrutuksessa. Hiiren rulla säätää seurantakameran etäisyyttä. Vanteisiin saa kuvioiden pinnat ja tekstuurit sekä Kulta-, Smaragdi-, Ametisti- ja Peili-materiaalit. Korin tai kuvion värin voi kopioida vanteille. Uudet arvomateriaalit ovat toistaiseksi maksuttomia; nykyisten vanteiden ja pintojen omistukset säilyvät. Ajofysiikka 14, vanhat ennätykset arkistossa. Lähdeversio: `032b684`.
