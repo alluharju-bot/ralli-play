@@ -4,6 +4,8 @@
 
 Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oikea jäykän kappaleen fysiikka ja irtoavat osat. Tietokone, näppäimistö tai peliohjain; kosketusohjausta ei vielä ole.
 
+**17.9.2026 · Airtime, viisi tähteä ja yritysvalikko.** Lentopisteet kertyvät jo ilmassa ja numerot elävät suorituksen mukana. Kelvollinen hyppy maalin yli antaa heti täydellisen alastulon 1 200 pisteen bonuksen; vain ennen maalia tapahtuva alastulo arvioidaan. Maaliruudun yhteenveto näyttää pisteet ja tulot. Ajopäiväkirjassa on nyt 11 saavutusta × 5 tähteä, vanhat palkintovanteet sekä uudet takaperin portista-, pelaaja-/NPC-osuma-, jarrutus-, katolle päätymis- ja puuosumatilastot. Soolon ja Ykkösajan Esc palauttaa lähtöön ja avaa valikon **Uusi kierros / Korjaa auto / Palaa talliin**; uusi lähtö alkaa vasta napista. Tab näyttää kilpailijat myös tulos- ja yritysvalikosta. Uusien tähtien palkinnot sekä rata- ja autokohtaiset saavutusperheet tulevat myöhemmin. Lähdeversio: `7d83752`.
+
 **17.9.2026 · Arcade, tilastot ja saavutukset.** Driftit, hypyt ja arvioidut alastulot, siistit/läheltä tehdyt ohitukset sekä yhden ja kahden pyörän temput tuovat tyylipisteitä. 100 pistettä = 1 €, rajattu ketjukerroin ja selvästi suurempi palkinto täydellisestä alastulosta. Hyppy vaatii vähintään 5 m, lähtönopeuden 25 km/h ja alastulon 20 km/h; vakautta arvioidaan vielä 0,8 s kosketuksen jälkeen. Varikon **Tilastot & saavutukset** näyttää eliniän ja autokohtaiset luvut, kahdeksan saavutusta sekä avattavat Kultasiipi-, Kultakierre- ja Platinapari-vanteet. Oma auto ja vauriot käytössä: soolo, kampanja ja verkkokilpailut kerryttävät etenemistä; ennätysjahti ja harjoittelu antavat harjoituspisteitä. Tilastot alkavat tästä päivityksestä. Ajofysiikka 14 ja vanhat ennätykset säilyvät. Lähdeversio: `4924564`.
 
 **17.9.2026 · Ratapassi.** Kuusirinne saa metsämajat ja tukkipaikat, Sorala ladot, siilot ja märät pientareet, Satama nosturit, konttipihat ja aamuvalaistuksen. Kaikilla 15 rataversiolla on kaarteiden ennakointimerkit; asfaltilla tarkat reunaviivat. Lumi, sora, ruoho, hiekka, muta ja maastoon leikattu vesi käyttävät yhteisiä pintatehosteita ja rengaskontakteja. Maaston piirtoa kevennettiin ja NPC-suunnittelun samanaikaisia laskentapiikkejä porrastettiin. Kuudella muuttuneella rataversiolla on uudet ennätyslistat; vanhat ajat ja haamut säilyvät arkistossa, kampanjan palkinnot ennallaan. Lähdeversio: `be41066`.
@@ -26,8 +28,8 @@ Ajosta ja tuloksista palataan samaan pelimuotoon ja ajettuun rataan. Valmistelus
 - S / nuoli alas: jarru ja hitaassa vauhdissa peruutus. Q: peruutus.
 - Space ajossa: takapyörien käsijarru.
 - R pohjassa: auto kampeaa itsensä vähitellen pystyyn. Ei korjausta eikä kierroksen mitätöintiä.
-- Esc: valikoissa askel taaksepäin; yksinpeliajossa uusi yritys. Moninpelin Ykkösajassa uusi yritys, kun lähtöaikaa on jäljellä.
-- Tab: kilpailun tilanne, kuljettajat, sijoitukset, kierrokset ja ajat. Toimii myös Soolon NPC-kisassa.
+- Esc: valikoissa askel taaksepäin; Soolossa ja Ykkösajassa lähtöön ja yritysvalikko. Uusi kierros alkaa vasta valinnasta, vauriot säilyvät. Korjaus on maksullinen.
+- Tab: kilpailun tilanne, kuljettajat, sijoitukset, kierrokset ja ajat. Toimii myös Soolon NPC-kisassa sekä tulos- ja yritysvalikoista.
 - Hiiren rulla ajonäkymässä: seurantakameran etäisyys.
 - C: ajokamera. Peliohjaimella RT kaasu, LT jarru, A käsijarru.
 
