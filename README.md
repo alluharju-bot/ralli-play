@@ -4,6 +4,8 @@
 
 Talvi-, sora- ja asfalttirallin proto. Tarkoituksella neliskanttiset autot, oikea jäykän kappaleen fysiikka ja irtoavat osat. Tietokone, näppäimistö tai peliohjain; kosketusohjausta ei vielä ole.
 
+**17.9.2026 · Ratapassi.** Kuusirinne saa metsämajat ja tukkipaikat, Sorala ladot, siilot ja märät pientareet, Satama nosturit, konttipihat ja aamuvalaistuksen. Kaikilla 15 rataversiolla on kaarteiden ennakointimerkit; asfaltilla tarkat reunaviivat. Lumi, sora, ruoho, hiekka, muta ja maastoon leikattu vesi käyttävät yhteisiä pintatehosteita ja rengaskontakteja. Maaston piirtoa kevennettiin ja NPC-suunnittelun samanaikaisia laskentapiikkejä porrastettiin. Kuudella muuttuneella rataversiolla on uudet ennätyslistat; vanhat ajat ja haamut säilyvät arkistossa, kampanjan palkinnot ennallaan. Lähdeversio: `be41066`.
+
 **17.9.2026 · Korjauspainikkeen kontrasti.** Autotallin Korjaus-painike näkyy taas oranssina myös avattuna. Tumma yleistausta oli peittänyt sen korostuksen ja jättänyt tekstin vaikeaksi lukea. Korjausten toiminta ja hinnoittelu säilyvät. Lähdeversio: `30c2eb4`.
 
 **17.9.2026 · Uusi varikko ja muistavat pelaajapolut.** Hiilenharmaa, lämmin oranssi, ajanottotypografia ja oma auto muodostavat pelin uuden ilmeen. Etusivu näyttää seuraavan lähdön ja radan viivapiirroksen. Ajosta palataan omaan pelimuotoon ja rataan; autonvaihto, asetukset ja sivupäivitys säilyttävät valmistelun. Vanteiden metalli, helmiäinen ja timantti saavat kuvioiden materiaalikäsittelyn. Kampanjan seitsemän kilpailua on kytketty nykyisiin ratoihin uusilla vertailumittauksilla; tähtirajat ja ansaitut palkinnot säilyvät. Lähdeversio: `0d6d033`.
@@ -47,7 +49,7 @@ Korjaukset maksetaan kassasta. **Korjaa kaikki** on korjauslistan alareunassa; e
 
 ## Kilpailut ja haamut
 
-**Kilpailut → Soolo**: valitse rata ja 0–9 NPC-vastustajaa. Tavallinen aseeton kisa käyttää omaa autoa, säilyttää vauriot ja hyväksyy kelvollisen pelaajan kierroksen kilpailuaikojen listalle. Radan selaaminen vaihtaa kuvat ja tiedot; ajomaailma ladataan vasta aloittaessa. Mukana on 12 ratavaihtoehtoa: metsä-, louhos-, pelto-, rannikko- ja asfalttiympäristöjä sekä käännettyjä iltaruskoratoja, usvaa ja pyryä. Uusina ovat kivinen mäkireitti **Kivisola** ja leveä asfalttirata **Vauhtila**.
+**Kilpailut → Soolo**: valitse rata ja 0–9 NPC-vastustajaa. Tavallinen aseeton kisa käyttää omaa autoa, säilyttää vauriot ja hyväksyy kelvollisen pelaajan kierroksen kilpailuaikojen listalle. Radan selaaminen vaihtaa kuvat ja tiedot; ajomaailma ladataan vasta aloittaessa. Mukana on 15 ratavaihtoehtoa: metsä-, louhos-, pelto-, rannikko- ja asfalttiympäristöjä sekä käännettyjä iltaruskoratoja, usvaa ja pyryä. Uusina ovat kivinen mäkireitti **Kivisola** ja leveä asfalttirata **Vauhtila**.
 
 **Kilpailut → Ennätysjahti**: aja paikaltaan ehjällä kopiolla valitsemastasi autosta, ilman uusia vaurioita tai vastustajia. Tallin osien kunto ja rahat säilyvät. Ennätysjahti ja Kilpailuajat ovat erilliset listat, joissa kummassakin on Vakio/Viritetyt, oma paras ja ladattavat haamut. Vanhat ajat säilyvät Kilpailuajoissa.
 
@@ -111,7 +113,7 @@ Asetuksissa voi säätää musiikin, moottori/turboäänien ja muiden tehosteide
 
 Valitse reittipiste ja raahaa oranssia korkeuskahvaa tai anna tien korkeus metreinä. Tien alla oleva oikea maasto muuttuu samalla. Nosta, laske, pehmennä tai tasaa maastoa siveltimillä; alareunan profiili näyttää korkeuserot. Lähtöalueen ja huoltokaistan tasaukset näkyvät oransseina.
 
-**Silta**- ja **Tunneli**-työkaluilla lisäät erillisen ajokannen tai katetun tieosuuden. Säädä rakenteen korkeutta, pituutta ja ramppeja; sillan nostaminen ei nosta sen alla olevaa maata. Kannelle asetettu kaluste seuraa siltaa. Uudet eritasoluonnokset tallentuvat v2-muodossa; aiemmat v1-luonnokset avautuvat edelleen. Tunneli on tässä versiossa katettu väylä, ei kallioon kaivettu aukko.
+**Silta**- ja **Tunneli**-työkaluilla lisäät erillisen ajokannen tai katetun tieosuuden. Säädä rakenteen korkeutta, pituutta ja ramppeja; sillan nostaminen ei nosta sen alla olevaa maata. Kannelle asetettu kaluste seuraa siltaa. Uudet luonnokset tallentuvat pintojen ja veden v3-muodossa; aiemmat v1/v2-luonnokset avautuvat edelleen. Tunneli on tässä versiossa katettu väylä, ei kallioon kaivettu aukko.
 
 Kalustetyökalu näyttää valitun osan maisemassa ennen asettamista. Q/E kääntää, klikkaus asettaa, Esc peruu esikatselun. Maan pinnalle kuuluvat kalusteet seuraavat maastoa. Punainen esikatselu varoittaa tiellä tai huollossa olevasta esteestä. Kumoaminen, tiedoston vienti/tuonti ja eristetty koeajo säilyvät. Koeajo ei muuta omaa autoa, rahaa tai ennätyksiä. Luonnoksia ei vielä voi julkaista yleiseen kilpailulistaan.
 
