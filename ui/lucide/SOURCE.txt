@@ -1,0 +1,2 @@
+Lucide icons, https://github.com/lucide-icons/lucide
+Retrieved 2026-09-20. Original SVG paths, distributed with original LICENSE.
