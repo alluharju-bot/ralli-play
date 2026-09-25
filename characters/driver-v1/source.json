@@ -1,0 +1,49 @@
+{
+  "source": "Player-provided character and animations, 2026-09-25",
+  "model": "character.fbx",
+  "coordinates": "FBX bind pose differs from animation pose; evaluate standing animation before fitting.",
+  "files": [
+    {
+      "file": "character.fbx",
+      "sourceFile": "Entering Car.fbx",
+      "bytes": 905648,
+      "sha256": "dd696351e652a35e0863a3f9c7dce154d4e514617787996f3d44acfb4ce2c344"
+    },
+    {
+      "file": "exit.fbx",
+      "sourceFile": "Exiting Car.fbx",
+      "bytes": 429600,
+      "sha256": "0f3464cf07cb18a02906d31ab68da5ebf3409b67270f9d66b1aa397b375bb4ed"
+    },
+    {
+      "file": "drive.fbx",
+      "sourceFile": "Driving.fbx",
+      "bytes": 361696,
+      "sha256": "6c8e669c41291528201ef6f3aed8c03423c09a3442662d9a22aa2740ba3a6000"
+    },
+    {
+      "file": "horn.fbx",
+      "sourceFile": "Honking Horn.fbx",
+      "bytes": 340544,
+      "sha256": "b6c85159a6731118084bca2dfb9ca204f2d803f5047d57643dcbfe45290f1d65"
+    },
+    {
+      "file": "start.fbx",
+      "sourceFile": "Start Walking.fbx",
+      "bytes": 320384,
+      "sha256": "3ea37f5ed33f3b464f742728160315b71477f6ef272e227c60b65e19d2cdadd5"
+    },
+    {
+      "file": "stop.fbx",
+      "sourceFile": "Stop Walking.fbx",
+      "bytes": 324336,
+      "sha256": "a97eb7d1e0a3d1acf0e426448b008b414b596ff6ee56af596194e32e472803e3"
+    },
+    {
+      "file": "walk.fbx",
+      "sourceFile": "Walking (1).fbx",
+      "bytes": 209744,
+      "sha256": "227fefaf144776aaefd294de0a57125dd44d4a09b14953500e2345dbe0c7e190"
+    }
+  ]
+}
