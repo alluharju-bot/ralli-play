@@ -1,0 +1,355 @@
+{
+  "format": "tgrg.assembly-contract.v1",
+  "revision": "blender-r002",
+  "vehicle": "bulancia",
+  "family": "medium",
+  "units": "metres",
+  "axes": "X left, Y up, Z front",
+  "wheelbase": 2.56,
+  "track": 1.66,
+  "sockets": [
+    {
+      "id": "wheel.left.front",
+      "part": "wheel:0",
+      "point": [
+        0.83,
+        0,
+        1.28
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "suspension.left.front",
+      "part": "left-front-suspension",
+      "point": [
+        0.45,
+        0.16,
+        1.28
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.left.rear",
+      "part": "wheel:2",
+      "point": [
+        0.83,
+        0,
+        -1.28
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "suspension.left.rear",
+      "part": "left-rear-suspension",
+      "point": [
+        0.45,
+        0.16,
+        -1.28
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mirror.left",
+      "part": "left-mirror",
+      "point": [
+        0.803,
+        0.662,
+        0.63
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.right.front",
+      "part": "wheel:1",
+      "point": [
+        -0.83,
+        0,
+        1.28
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "suspension.right.front",
+      "part": "right-front-suspension",
+      "point": [
+        -0.45,
+        0.16,
+        1.28
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.right.rear",
+      "part": "wheel:3",
+      "point": [
+        -0.83,
+        0,
+        -1.28
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "suspension.right.rear",
+      "part": "right-rear-suspension",
+      "point": [
+        -0.45,
+        0.16,
+        -1.28
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mirror.right",
+      "part": "right-mirror",
+      "point": [
+        -0.803,
+        0.662,
+        0.63
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "engine",
+      "part": "engine",
+      "point": [
+        0,
+        0.2,
+        1.19
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "transmission",
+      "part": "transmission",
+      "point": [
+        0,
+        0.055,
+        0.64
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "exhaust",
+      "part": "exhaust",
+      "point": [
+        -0.32,
+        0.17,
+        1.15
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "spoiler",
+      "part": "spoiler",
+      "point": [
+        0,
+        0.51,
+        -1.59
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "hood",
+      "part": "hood",
+      "point": [
+        0,
+        0.584,
+        0.729
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "trunk",
+      "part": "trunk",
+      "point": [
+        0,
+        0.51,
+        -1.174
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "surfaces": {
+    "hood": {
+      "z": [
+        0.729,
+        1.902
+      ],
+      "y": [
+        0.584,
+        0.466
+      ],
+      "halfWidth": 0.81
+    },
+    "trunk": {
+      "z": [
+        -1.902,
+        -1.174
+      ],
+      "y": [
+        0.51,
+        0.51
+      ],
+      "halfWidth": 0.81
+    },
+    "seam": 0.006
+  },
+  "wheelClearance": {
+    "radius": 0.36,
+    "halfWidth": 0.128,
+    "steeringDegrees": 32,
+    "compression": 0.065,
+    "rebound": 0.09,
+    "archRadius": 0.458,
+    "linerRadius": 0.468,
+    "innerX": 0.475
+  },
+  "spaces": [
+    {
+      "id": "engine",
+      "parts": [
+        "engine"
+      ],
+      "min": [
+        -0.405,
+        -0.035,
+        0.91
+      ],
+      "max": [
+        0.405,
+        0.455,
+        1.58
+      ]
+    },
+    {
+      "id": "transmission",
+      "parts": [
+        "transmission"
+      ],
+      "min": [
+        -0.18,
+        -0.07,
+        0.35
+      ],
+      "max": [
+        0.18,
+        0.2,
+        0.91
+      ]
+    },
+    {
+      "id": "exhaust-channel",
+      "parts": [
+        "exhaust"
+      ],
+      "meshes": [
+        "exhaust.header.2",
+        "exhaust.heat-shield"
+      ],
+      "min": [
+        -0.5,
+        -0.16,
+        -1.6
+      ],
+      "max": [
+        -0.33,
+        0.1,
+        0.95
+      ]
+    },
+    {
+      "id": "driveshaft",
+      "parts": [
+        "driveline"
+      ],
+      "meshes": [
+        "driveshaft"
+      ],
+      "min": [
+        -0.07,
+        -0.13,
+        -1.38
+      ],
+      "max": [
+        0.07,
+        0.03,
+        0.4
+      ]
+    }
+  ],
+  "fitPolicy": {
+    "receiverOwnsSockets": true,
+    "donorTransfersMounts": false,
+    "automaticPhysicsChanges": false,
+    "scaleRange": [
+      0.9,
+      1.1
+    ],
+    "requiresWheelClearanceCheck": true,
+    "requiresPanelSeams": true
+  }
+}
