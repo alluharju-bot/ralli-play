@@ -1,0 +1,751 @@
+{
+  "revision": "blender-r001",
+  "vehicle": "racer",
+  "assetHash": "66addf79d5ca336e72bd0db97563ec57ec69a0dbbc929fcbab745c5eb4e7b0bb",
+  "triangles": 16368,
+  "draws": 99,
+  "materials": 9,
+  "textures": 0,
+  "parts": [
+    {
+      "id": "frame",
+      "name": "Runko ja apurungot",
+      "gameSlot": "frame",
+      "inspectionGroup": "mechanics",
+      "triangles": 528,
+      "draws": 1,
+      "markers": [
+        {
+          "id": "wheel.front-left",
+          "kind": "mount",
+          "point": [
+            0.949999988079071,
+            0.0,
+            1.3250000476837158
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "note": ""
+        },
+        {
+          "id": "wheel.front-right",
+          "kind": "mount",
+          "point": [
+            -0.949999988079071,
+            0.0,
+            1.3250000476837158
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "note": ""
+        },
+        {
+          "id": "wheel.rear-left",
+          "kind": "mount",
+          "point": [
+            0.949999988079071,
+            0.0,
+            -1.3250000476837158
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "note": ""
+        },
+        {
+          "id": "wheel.rear-right",
+          "kind": "mount",
+          "point": [
+            -0.949999988079071,
+            0.0,
+            -1.3250000476837158
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "hood",
+      "name": "Konepelti",
+      "gameSlot": "hood",
+      "inspectionGroup": "body",
+      "triangles": 120,
+      "draws": 1,
+      "markers": [
+        {
+          "id": "mount.hood",
+          "kind": "mount",
+          "point": [
+            0.0,
+            0.527999997138977,
+            0.6159999966621399
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "trunk",
+      "name": "Takaluukku",
+      "gameSlot": "trunk",
+      "inspectionGroup": "body",
+      "triangles": 120,
+      "draws": 1,
+      "markers": [
+        {
+          "id": "mount.trunk",
+          "kind": "mount",
+          "point": [
+            0.0,
+            0.5357599854469299,
+            -2.0399999618530273
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "roof",
+      "name": "Kattopaneeli",
+      "gameSlot": "roof",
+      "inspectionGroup": "body",
+      "triangles": 120,
+      "draws": 1,
+      "markers": [
+        {
+          "id": "mount.roof",
+          "kind": "mount",
+          "point": [
+            0.0,
+            0.8360000252723694,
+            -0.8040000200271606
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "cabin",
+      "name": "Ohjaamon kehikko",
+      "gameSlot": "frame",
+      "inspectionGroup": "body",
+      "triangles": 352,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "left-door",
+      "name": "Vasen ovi",
+      "gameSlot": "left-door",
+      "inspectionGroup": "body",
+      "triangles": 50,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "left-sill",
+      "name": "Vasen helma",
+      "gameSlot": "frame",
+      "inspectionGroup": "body",
+      "triangles": 44,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "left-window",
+      "name": "Vasen sivulasi",
+      "gameSlot": "left-window",
+      "inspectionGroup": "body",
+      "triangles": 12,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "left-quarter-window",
+      "name": "Vasen takasivulasi",
+      "gameSlot": "rear-window",
+      "inspectionGroup": "body",
+      "triangles": 12,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "left-front-fender",
+      "name": "Vasen etulokasuoja",
+      "gameSlot": "hood",
+      "inspectionGroup": "body",
+      "triangles": 204,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "left-rear-quarter",
+      "name": "Vasen takakylki",
+      "gameSlot": "trunk",
+      "inspectionGroup": "body",
+      "triangles": 204,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "right-door",
+      "name": "Oikea ovi",
+      "gameSlot": "right-door",
+      "inspectionGroup": "body",
+      "triangles": 50,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "right-sill",
+      "name": "Oikea helma",
+      "gameSlot": "frame",
+      "inspectionGroup": "body",
+      "triangles": 44,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "right-window",
+      "name": "Oikea sivulasi",
+      "gameSlot": "right-window",
+      "inspectionGroup": "body",
+      "triangles": 12,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "right-quarter-window",
+      "name": "Oikea takasivulasi",
+      "gameSlot": "rear-window",
+      "inspectionGroup": "body",
+      "triangles": 12,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "right-front-fender",
+      "name": "Oikea etulokasuoja",
+      "gameSlot": "hood",
+      "inspectionGroup": "body",
+      "triangles": 204,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "right-rear-quarter",
+      "name": "Oikea takakylki",
+      "gameSlot": "trunk",
+      "inspectionGroup": "body",
+      "triangles": 204,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "windshield",
+      "name": "Tuulilasi",
+      "gameSlot": "windshield",
+      "inspectionGroup": "body",
+      "triangles": 12,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "rear-window",
+      "name": "Takalasi",
+      "gameSlot": "rear-window",
+      "inspectionGroup": "body",
+      "triangles": 12,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "front-grille",
+      "name": "Etumaski",
+      "gameSlot": "hood",
+      "inspectionGroup": "body",
+      "triangles": 244,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "left-headlight",
+      "name": "Vasen etuvalo",
+      "gameSlot": "left-headlight",
+      "inspectionGroup": "body",
+      "triangles": 264,
+      "draws": 3,
+      "markers": []
+    },
+    {
+      "id": "left-front-indicator",
+      "name": "Vasen vilkku",
+      "gameSlot": "review-only",
+      "inspectionGroup": "body",
+      "triangles": 88,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "right-headlight",
+      "name": "Oikea etuvalo",
+      "gameSlot": "right-headlight",
+      "inspectionGroup": "body",
+      "triangles": 264,
+      "draws": 3,
+      "markers": []
+    },
+    {
+      "id": "right-front-indicator",
+      "name": "Oikea vilkku",
+      "gameSlot": "review-only",
+      "inspectionGroup": "body",
+      "triangles": 88,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "front-bumper",
+      "name": "Etupuskuri",
+      "gameSlot": "front-bumper",
+      "inspectionGroup": "body",
+      "triangles": 220,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "rear-panel",
+      "name": "Takapaneeli",
+      "gameSlot": "trunk",
+      "inspectionGroup": "body",
+      "triangles": 244,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "left-taillight",
+      "name": "Vasen takavalo",
+      "gameSlot": "left-taillight",
+      "inspectionGroup": "body",
+      "triangles": 264,
+      "draws": 3,
+      "markers": []
+    },
+    {
+      "id": "left-rear-indicator",
+      "name": "Vasen vilkku",
+      "gameSlot": "review-only",
+      "inspectionGroup": "body",
+      "triangles": 88,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "right-taillight",
+      "name": "Oikea takavalo",
+      "gameSlot": "right-taillight",
+      "inspectionGroup": "body",
+      "triangles": 264,
+      "draws": 3,
+      "markers": []
+    },
+    {
+      "id": "right-rear-indicator",
+      "name": "Oikea vilkku",
+      "gameSlot": "review-only",
+      "inspectionGroup": "body",
+      "triangles": 88,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "rear-bumper",
+      "name": "Takapuskuri",
+      "gameSlot": "rear-bumper",
+      "inspectionGroup": "body",
+      "triangles": 132,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "spoiler",
+      "name": "Takasiipi",
+      "gameSlot": "spoiler",
+      "inspectionGroup": "body",
+      "triangles": 308,
+      "draws": 3,
+      "markers": [
+        {
+          "id": "mount.wing",
+          "kind": "mount",
+          "point": [
+            0.0,
+            0.5276399850845337,
+            -1.75
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "left-mirror",
+      "name": "Vasen peili",
+      "gameSlot": "left-mirror",
+      "inspectionGroup": "body",
+      "triangles": 132,
+      "draws": 3,
+      "markers": [
+        {
+          "id": "mount.left-mirror",
+          "kind": "mount",
+          "point": [
+            1.0099999904632568,
+            0.5299999713897705,
+            0.3799999952316284
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "right-mirror",
+      "name": "Oikea peili",
+      "gameSlot": "right-mirror",
+      "inspectionGroup": "body",
+      "triangles": 132,
+      "draws": 3,
+      "markers": [
+        {
+          "id": "mount.right-mirror",
+          "kind": "mount",
+          "point": [
+            -1.0099999904632568,
+            0.5299999713897705,
+            0.3799999952316284
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "exhaust",
+      "name": "Pakoputki",
+      "gameSlot": "exhaust",
+      "inspectionGroup": "body",
+      "triangles": 232,
+      "draws": 2,
+      "markers": [
+        {
+          "id": "mount.exhaust",
+          "kind": "mount",
+          "point": [
+            -0.6299999952316284,
+            0.0,
+            -1.9900000095367432
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "left-seat",
+      "name": "Vasen istuin",
+      "gameSlot": "left-seat",
+      "inspectionGroup": "body",
+      "triangles": 176,
+      "draws": 1,
+      "markers": [
+        {
+          "id": "mount.left-seat",
+          "kind": "mount",
+          "point": [
+            0.38999998569488525,
+            0.3499999940395355,
+            -0.20999999344348907
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "right-seat",
+      "name": "Oikea istuin",
+      "gameSlot": "right-seat",
+      "inspectionGroup": "body",
+      "triangles": 176,
+      "draws": 1,
+      "markers": [
+        {
+          "id": "mount.right-seat",
+          "kind": "mount",
+          "point": [
+            -0.38999998569488525,
+            0.3499999940395355,
+            -0.20999999344348907
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "name": "Moottori",
+      "gameSlot": "engine",
+      "inspectionGroup": "body",
+      "triangles": 232,
+      "draws": 2,
+      "markers": [
+        {
+          "id": "mount.engine",
+          "kind": "mount",
+          "point": [
+            0.0,
+            0.09000000357627869,
+            -1.2999999523162842
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "wheel:0",
+      "name": "Vasen etupyörä",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 1356,
+      "draws": 3,
+      "markers": []
+    },
+    {
+      "id": "brake:0",
+      "name": "Jarrulevy ja satula 1",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 300,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "suspension:0",
+      "name": "Jousitus 1",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 948,
+      "draws": 3,
+      "markers": [
+        {
+          "id": "suspension.front-left",
+          "kind": "mount",
+          "point": [
+            0.47999998927116394,
+            0.03999999910593033,
+            1.3250000476837158
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "wheel:1",
+      "name": "Oikea etupyörä",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 1356,
+      "draws": 3,
+      "markers": []
+    },
+    {
+      "id": "brake:1",
+      "name": "Jarrulevy ja satula 2",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 300,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "suspension:1",
+      "name": "Jousitus 2",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 948,
+      "draws": 3,
+      "markers": [
+        {
+          "id": "suspension.front-right",
+          "kind": "mount",
+          "point": [
+            -0.47999998927116394,
+            0.03999999910593033,
+            1.3250000476837158
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "wheel:2",
+      "name": "Vasen takapyörä",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 1356,
+      "draws": 3,
+      "markers": []
+    },
+    {
+      "id": "brake:2",
+      "name": "Jarrulevy ja satula 3",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 300,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "suspension:2",
+      "name": "Jousitus 3",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 948,
+      "draws": 3,
+      "markers": [
+        {
+          "id": "suspension.rear-left",
+          "kind": "mount",
+          "point": [
+            0.47999998927116394,
+            0.03999999910593033,
+            -1.3250000476837158
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "wheel:3",
+      "name": "Oikea takapyörä",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 1356,
+      "draws": 3,
+      "markers": []
+    },
+    {
+      "id": "brake:3",
+      "name": "Jarrulevy ja satula 4",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 300,
+      "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "suspension:3",
+      "name": "Jousitus 4",
+      "gameSlot": "review-only",
+      "inspectionGroup": "mechanics",
+      "triangles": 948,
+      "draws": 3,
+      "markers": [
+        {
+          "id": "suspension.rear-right",
+          "kind": "mount",
+          "point": [
+            -0.47999998927116394,
+            0.03999999910593033,
+            -1.3250000476837158
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "contract": "assembly-contract.json",
+  "reference": {
+    "triangles": 6796,
+    "materialGroups": 560
+  }
+}

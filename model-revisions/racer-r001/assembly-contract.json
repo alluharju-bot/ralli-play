@@ -1,0 +1,279 @@
+{
+  "format": "tgrg.assembly-contract.v1",
+  "revision": "blender-r001",
+  "vehicle": "racer",
+  "family": "sports-coupe",
+  "units": "metres",
+  "axes": "X left, Y up, Z front",
+  "gameBodyOffsetY": -0.05,
+  "wheelbase": 2.65,
+  "track": 1.9,
+  "sockets": [
+    {
+      "id": "wheel.front-left",
+      "part": "frame",
+      "point": [
+        0.949999988079071,
+        0.0,
+        1.3250000476837158
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.front-right",
+      "part": "frame",
+      "point": [
+        -0.949999988079071,
+        0.0,
+        1.3250000476837158
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.rear-left",
+      "part": "frame",
+      "point": [
+        0.949999988079071,
+        0.0,
+        -1.3250000476837158
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.rear-right",
+      "part": "frame",
+      "point": [
+        -0.949999988079071,
+        0.0,
+        -1.3250000476837158
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mount.hood",
+      "part": "hood",
+      "point": [
+        0.0,
+        0.527999997138977,
+        0.6159999966621399
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.trunk",
+      "part": "trunk",
+      "point": [
+        0.0,
+        0.5357599854469299,
+        -2.0399999618530273
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.roof",
+      "part": "roof",
+      "point": [
+        0.0,
+        0.8360000252723694,
+        -0.8040000200271606
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.wing",
+      "part": "spoiler",
+      "point": [
+        0.0,
+        0.5276399850845337,
+        -1.75
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.left-mirror",
+      "part": "left-mirror",
+      "point": [
+        1.0099999904632568,
+        0.5299999713897705,
+        0.3799999952316284
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.right-mirror",
+      "part": "right-mirror",
+      "point": [
+        -1.0099999904632568,
+        0.5299999713897705,
+        0.3799999952316284
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.exhaust",
+      "part": "exhaust",
+      "point": [
+        -0.6299999952316284,
+        0.0,
+        -1.9900000095367432
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.left-seat",
+      "part": "left-seat",
+      "point": [
+        0.38999998569488525,
+        0.3499999940395355,
+        -0.20999999344348907
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.right-seat",
+      "part": "right-seat",
+      "point": [
+        -0.38999998569488525,
+        0.3499999940395355,
+        -0.20999999344348907
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.engine",
+      "part": "engine",
+      "point": [
+        0.0,
+        0.09000000357627869,
+        -1.2999999523162842
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "suspension.front-left",
+      "part": "suspension:0",
+      "point": [
+        0.47999998927116394,
+        0.03999999910593033,
+        1.3250000476837158
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "suspension.front-right",
+      "part": "suspension:1",
+      "point": [
+        -0.47999998927116394,
+        0.03999999910593033,
+        1.3250000476837158
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "suspension.rear-left",
+      "part": "suspension:2",
+      "point": [
+        0.47999998927116394,
+        0.03999999910593033,
+        -1.3250000476837158
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "suspension.rear-right",
+      "part": "suspension:3",
+      "point": [
+        -0.47999998927116394,
+        0.03999999910593033,
+        -1.3250000476837158
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "wheelClearance": {
+    "radius": 0.34,
+    "halfWidth": 0.155,
+    "steeringDegrees": 32,
+    "compression": 0.065,
+    "rebound": 0.09
+  },
+  "fitPolicy": {
+    "receiverOwnsSockets": true,
+    "donorTransfersMounts": false,
+    "automaticPhysicsChanges": false,
+    "requiresWheelClearanceCheck": true,
+    "requiresPanelSeams": true
+  }
+}

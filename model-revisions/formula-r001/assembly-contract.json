@@ -1,0 +1,223 @@
+{
+  "format": "tgrg.assembly-contract.v1",
+  "revision": "blender-r001",
+  "vehicle": "formula",
+  "family": "open-wheel",
+  "units": "metres",
+  "axes": "X left, Y up, Z front",
+  "gameBodyOffsetY": -0.05,
+  "wheelbase": 2.88,
+  "track": 1.84,
+  "sockets": [
+    {
+      "id": "wheel.front-left",
+      "part": "frame",
+      "point": [
+        0.9200000166893005,
+        0.0,
+        1.440000057220459
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.front-right",
+      "part": "frame",
+      "point": [
+        -0.9200000166893005,
+        0.0,
+        1.440000057220459
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.rear-left",
+      "part": "frame",
+      "point": [
+        0.9200000166893005,
+        0.0,
+        -1.440000057220459
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wheel.rear-right",
+      "part": "frame",
+      "point": [
+        -0.9200000166893005,
+        0.0,
+        -1.440000057220459
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mount.hood",
+      "part": "hood",
+      "point": [
+        0.0,
+        0.3970000147819519,
+        0.5199999809265137
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.trunk",
+      "part": "trunk",
+      "point": [
+        0.0,
+        0.2759999930858612,
+        -2.119999885559082
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.exhaust",
+      "part": "exhaust",
+      "point": [
+        0.0,
+        0.1599999964237213,
+        -2.190000057220459
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.left-seat",
+      "part": "left-seat",
+      "point": [
+        0.0,
+        0.23000000417232513,
+        0.15000000596046448
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.right-seat",
+      "part": "right-seat",
+      "point": [
+        0.0,
+        0.4300000071525574,
+        -0.2800000011920929
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mount.engine",
+      "part": "engine",
+      "point": [
+        0.0,
+        0.10000000149011612,
+        -1.2300000190734863
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "suspension.front-left",
+      "part": "suspension:0",
+      "point": [
+        0.33000001311302185,
+        0.03999999910593033,
+        1.440000057220459
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "suspension.front-right",
+      "part": "suspension:1",
+      "point": [
+        -0.33000001311302185,
+        0.03999999910593033,
+        1.440000057220459
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "suspension.rear-left",
+      "part": "suspension:2",
+      "point": [
+        0.33000001311302185,
+        0.03999999910593033,
+        -1.440000057220459
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "suspension.rear-right",
+      "part": "suspension:3",
+      "point": [
+        -0.33000001311302185,
+        0.03999999910593033,
+        -1.440000057220459
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "wheelClearance": {
+    "radius": 0.34,
+    "halfWidth": 0.155,
+    "steeringDegrees": 32,
+    "compression": 0.065,
+    "rebound": 0.09
+  },
+  "fitPolicy": {
+    "receiverOwnsSockets": true,
+    "donorTransfersMounts": false,
+    "automaticPhysicsChanges": false,
+    "requiresWheelClearanceCheck": true,
+    "requiresPanelSeams": true
+  }
+}
