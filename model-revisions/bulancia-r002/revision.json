@@ -1,8 +1,8 @@
 {
   "revision": "blender-r002",
   "vehicle": "bulancia",
-  "assetHash": "85593ed1612ea66b926831ffdfa56272d0b7fc15ff5010a5cf733e7db3928ede",
-  "triangles": 29976,
+  "assetHash": "049bf8830a1a944b6376091b85014f42ae42c33f92c3c2eb5e79b069196d7ea7",
+  "triangles": 29964,
   "draws": 115,
   "materials": 9,
   "textures": 0,
@@ -734,7 +734,7 @@
       "name": "Etumaski",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 404,
+      "triangles": 392,
       "draws": 3,
       "markers": []
     },
@@ -750,7 +750,7 @@
           "id": "mount.left-headlight",
           "kind": "mount",
           "point": [
-            0.08800002932548523,
+            0.06518366932868958,
             0.01000000536441803,
             0.009000062942504883
           ],
@@ -775,7 +775,7 @@
           "id": "mount.left-front-indicator",
           "kind": "mount",
           "point": [
-            0.7770000100135803,
+            0.7457882165908813,
             0.18400000035762787,
             1.9290000200271606
           ],
@@ -800,7 +800,7 @@
           "id": "mount.right-headlight",
           "kind": "mount",
           "point": [
-            -0.08800002932548523,
+            -0.06518366932868958,
             0.01000000536441803,
             0.009000062942504883
           ],
@@ -825,7 +825,7 @@
           "id": "mount.right-front-indicator",
           "kind": "mount",
           "point": [
-            -0.7770000100135803,
+            -0.7457882165908813,
             0.18400000035762787,
             1.9290000200271606
           ],

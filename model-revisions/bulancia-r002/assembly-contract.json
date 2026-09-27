@@ -243,7 +243,12 @@
         0.584,
         0.466
       ],
-      "halfWidth": 0.81
+      "halfWidth": 0.81,
+      "noseTaper": {
+        "startZ": 1.52,
+        "endZ": 2.08,
+        "endScale": 0.945
+      }
     },
     "trunk": {
       "z": [
