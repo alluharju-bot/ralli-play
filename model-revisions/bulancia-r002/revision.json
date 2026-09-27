@@ -1,9 +1,9 @@
 {
   "revision": "blender-r002",
   "vehicle": "bulancia",
-  "assetHash": "4f0eed03c061eb875d40d701edd5fc44d9ad0dab6f50477e7fa361b633bd2db5",
-  "triangles": 29888,
-  "draws": 113,
+  "assetHash": "85593ed1612ea66b926831ffdfa56272d0b7fc15ff5010a5cf733e7db3928ede",
+  "triangles": 29976,
+  "draws": 115,
   "materials": 9,
   "textures": 0,
   "parts": [
@@ -584,8 +584,17 @@
     },
     {
       "id": "left-window",
-      "name": "Vasen sivulasi",
+      "name": "Vasen oven lasi",
       "gameSlot": "left-window",
+      "inspectionGroup": "body",
+      "triangles": 44,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "left-quarter-window",
+      "name": "Vasen kiinteä takasivulasi",
+      "gameSlot": "rear-window",
       "inspectionGroup": "body",
       "triangles": 44,
       "draws": 1,
@@ -652,8 +661,17 @@
     },
     {
       "id": "right-window",
-      "name": "Oikea sivulasi",
+      "name": "Oikea oven lasi",
       "gameSlot": "right-window",
+      "inspectionGroup": "body",
+      "triangles": 44,
+      "draws": 1,
+      "markers": []
+    },
+    {
+      "id": "right-quarter-window",
+      "name": "Oikea kiinteä takasivulasi",
+      "gameSlot": "rear-window",
       "inspectionGroup": "body",
       "triangles": 44,
       "draws": 1,
