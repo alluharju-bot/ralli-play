@@ -1,7 +1,8 @@
 {
   "revision": "blender-r002",
   "vehicle": "bulancia",
-  "triangles": 27848,
+  "assetHash": "4f0eed03c061eb875d40d701edd5fc44d9ad0dab6f50477e7fa361b633bd2db5",
+  "triangles": 29888,
   "draws": 113,
   "materials": 9,
   "textures": 0,
@@ -436,7 +437,7 @@
       "name": "Vasen etulokasuoja",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 744,
+      "triangles": 1196,
       "draws": 2,
       "markers": [
         {
@@ -461,7 +462,7 @@
       "name": "Oikea etulokasuoja",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 744,
+      "triangles": 1196,
       "draws": 2,
       "markers": [
         {
@@ -486,7 +487,7 @@
       "name": "Vasen takakylki",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 820,
+      "triangles": 1252,
       "draws": 2,
       "markers": [
         {
@@ -511,7 +512,7 @@
       "name": "Oikea takakylki",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 820,
+      "triangles": 1252,
       "draws": 2,
       "markers": [
         {
@@ -715,7 +716,7 @@
       "name": "Etumaski",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 308,
+      "triangles": 404,
       "draws": 3,
       "markers": []
     },
@@ -824,7 +825,7 @@
       "name": "Takapuskuri",
       "gameSlot": "rear-bumper",
       "inspectionGroup": "body",
-      "triangles": 220,
+      "triangles": 312,
       "draws": 1,
       "markers": [
         {
@@ -849,7 +850,7 @@
       "name": "Takapaneeli",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 132,
+      "triangles": 228,
       "draws": 3,
       "markers": []
     },
@@ -1257,7 +1258,7 @@
       "name": "Pakoputkisto ja lämpösuoja",
       "gameSlot": "exhaust",
       "inspectionGroup": "mechanics",
-      "triangles": 444,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     }
