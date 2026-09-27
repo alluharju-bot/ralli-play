@@ -1,8 +1,8 @@
 {
   "revision": "blender-r002",
   "vehicle": "bulancia",
-  "assetHash": "049bf8830a1a944b6376091b85014f42ae42c33f92c3c2eb5e79b069196d7ea7",
-  "triangles": 29964,
+  "assetHash": "fce79678715ddf7f71a6fda91b635a422bb2e471b7ba9e36edb67de4b72a48f6",
+  "triangles": 29892,
   "draws": 115,
   "materials": 9,
   "textures": 0,
@@ -302,7 +302,7 @@
       "name": "Konepelti",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 560,
+      "triangles": 520,
       "draws": 2,
       "markers": [
         {
@@ -357,7 +357,7 @@
       "name": "Takaluukku",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 252,
+      "triangles": 212,
       "draws": 2,
       "markers": [
         {
@@ -397,7 +397,7 @@
       "name": "Kattopaneeli",
       "gameSlot": "roof",
       "inspectionGroup": "body",
-      "triangles": 208,
+      "triangles": 168,
       "draws": 1,
       "markers": [
         {
@@ -437,7 +437,7 @@
       "name": "Vasen etulokasuoja",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 1196,
+      "triangles": 1308,
       "draws": 2,
       "markers": [
         {
@@ -462,7 +462,7 @@
       "name": "Oikea etulokasuoja",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 1196,
+      "triangles": 1308,
       "draws": 2,
       "markers": [
         {
@@ -734,7 +734,7 @@
       "name": "Etumaski",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 392,
+      "triangles": 416,
       "draws": 3,
       "markers": []
     },
@@ -868,7 +868,7 @@
       "name": "Takapaneeli",
       "gameSlot": "frame",
       "inspectionGroup": "body",
-      "triangles": 228,
+      "triangles": 412,
       "draws": 3,
       "markers": []
     },
@@ -1020,7 +1020,7 @@
       "name": "Jarrulevy ja satula 1",
       "gameSlot": "frame",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 204,
       "draws": 2,
       "markers": []
     },
@@ -1054,7 +1054,7 @@
       "name": "Jarrulevy ja satula 2",
       "gameSlot": "frame",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 204,
       "draws": 2,
       "markers": []
     },
@@ -1088,7 +1088,7 @@
       "name": "Jarrulevy ja satula 3",
       "gameSlot": "frame",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 204,
       "draws": 2,
       "markers": []
     },
@@ -1122,7 +1122,7 @@
       "name": "Jarrulevy ja satula 4",
       "gameSlot": "frame",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 204,
       "draws": 2,
       "markers": []
     },

@@ -263,6 +263,54 @@
     },
     "seam": 0.006
   },
+  "lampMountRegions": {
+    "front": {
+      "part": "hood",
+      "center": [
+        0.59,
+        0.2865,
+        1.879
+      ],
+      "size": [
+        0.49,
+        0.273
+      ]
+    },
+    "rear": {
+      "part": "trunk",
+      "center": [
+        0.5725,
+        0.2875,
+        -1.889
+      ],
+      "size": [
+        0.525,
+        0.285
+      ]
+    },
+    "mirrorX": true,
+    "margin": 0.003
+  },
+  "runningGear": {
+    "springUpper": [
+      0.505,
+      0.332,
+      1.24
+    ],
+    "armInner": [
+      0.382,
+      -0.056,
+      1.13
+    ],
+    "wheelCentre": [
+      0.83,
+      0,
+      1.28
+    ],
+    "mirrorX": true,
+    "mirrorAxleZ": true,
+    "gameBodyOffsetY": -0.11
+  },
   "wheelClearance": {
     "radius": 0.36,
     "halfWidth": 0.128,
