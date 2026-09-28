@@ -1,9 +1,9 @@
 {
   "revision": "blender-r001",
   "vehicle": "racer",
-  "assetHash": "66addf79d5ca336e72bd0db97563ec57ec69a0dbbc929fcbab745c5eb4e7b0bb",
-  "triangles": 16368,
-  "draws": 99,
+  "assetHash": "b8523b820d602b2e2b5e9cb07d84b1c092c89325aa4aa5a02883828a1fe36b75",
+  "triangles": 17108,
+  "draws": 101,
   "materials": 9,
   "textures": 0,
   "parts": [
@@ -82,8 +82,8 @@
       "name": "Konepelti",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 120,
-      "draws": 1,
+      "triangles": 232,
+      "draws": 2,
       "markers": [
         {
           "id": "mount.hood",
@@ -107,8 +107,8 @@
       "name": "Takaluukku",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 120,
-      "draws": 1,
+      "triangles": 336,
+      "draws": 2,
       "markers": [
         {
           "id": "mount.trunk",
@@ -166,7 +166,7 @@
       "name": "Vasen ovi",
       "gameSlot": "left-door",
       "inspectionGroup": "body",
-      "triangles": 50,
+      "triangles": 262,
       "draws": 2,
       "markers": []
     },
@@ -202,7 +202,7 @@
       "name": "Vasen etulokasuoja",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 204,
+      "triangles": 252,
       "draws": 2,
       "markers": []
     },
@@ -211,7 +211,7 @@
       "name": "Vasen takakylki",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 204,
+      "triangles": 256,
       "draws": 2,
       "markers": []
     },
@@ -220,7 +220,7 @@
       "name": "Oikea ovi",
       "gameSlot": "right-door",
       "inspectionGroup": "body",
-      "triangles": 50,
+      "triangles": 262,
       "draws": 2,
       "markers": []
     },
@@ -256,7 +256,7 @@
       "name": "Oikea etulokasuoja",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 204,
+      "triangles": 252,
       "draws": 2,
       "markers": []
     },
@@ -265,7 +265,7 @@
       "name": "Oikea takakylki",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 204,
+      "triangles": 256,
       "draws": 2,
       "markers": []
     },
@@ -292,7 +292,7 @@
       "name": "Etumaski",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 244,
+      "triangles": 49,
       "draws": 2,
       "markers": []
     },
@@ -337,7 +337,7 @@
       "name": "Etupuskuri",
       "gameSlot": "front-bumper",
       "inspectionGroup": "body",
-      "triangles": 220,
+      "triangles": 308,
       "draws": 2,
       "markers": []
     },
@@ -346,7 +346,7 @@
       "name": "Takapaneeli",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 244,
+      "triangles": 51,
       "draws": 2,
       "markers": []
     },
@@ -391,7 +391,7 @@
       "name": "Takapuskuri",
       "gameSlot": "rear-bumper",
       "inspectionGroup": "body",
-      "triangles": 132,
+      "triangles": 220,
       "draws": 1,
       "markers": []
     },

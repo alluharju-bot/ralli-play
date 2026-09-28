@@ -1,9 +1,9 @@
 {
   "revision": "blender-r001",
   "vehicle": "formula",
-  "assetHash": "eb43c06debd4e0390c5ebf0dd92628bfeea16bcb628afabb2993a441bd408245",
-  "triangles": 15944,
-  "draws": 84,
+  "assetHash": "a4f9f85f0f5b36c6c7463f0395f09bd473544cc62a53e0c4800ca136a4d96c34",
+  "triangles": 16404,
+  "draws": 85,
   "materials": 9,
   "textures": 0,
   "parts": [
@@ -12,8 +12,8 @@
       "name": "Runko ja apurungot",
       "gameSlot": "frame",
       "inspectionGroup": "mechanics",
-      "triangles": 264,
-      "draws": 1,
+      "triangles": 1496,
+      "draws": 2,
       "markers": [
         {
           "id": "wheel.front-left",
@@ -82,7 +82,7 @@
       "name": "Nokkakartio",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 400,
+      "triangles": 348,
       "draws": 2,
       "markers": [
         {
@@ -188,7 +188,7 @@
       "name": "Moottorikate",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 724,
+      "triangles": 772,
       "draws": 2,
       "markers": [
         {
@@ -457,7 +457,7 @@
       "name": "Vasen etupyörä",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 1356,
+      "triangles": 1164,
       "draws": 3,
       "markers": []
     },
@@ -500,7 +500,7 @@
       "name": "Oikea etupyörä",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 1356,
+      "triangles": 1164,
       "draws": 3,
       "markers": []
     },
@@ -543,7 +543,7 @@
       "name": "Vasen takapyörä",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 1356,
+      "triangles": 1164,
       "draws": 3,
       "markers": []
     },
@@ -586,7 +586,7 @@
       "name": "Oikea takapyörä",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 1356,
+      "triangles": 1164,
       "draws": 3,
       "markers": []
     },
