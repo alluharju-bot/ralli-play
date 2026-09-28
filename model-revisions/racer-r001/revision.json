@@ -1,9 +1,9 @@
 {
   "revision": "blender-r001",
   "vehicle": "racer",
-  "assetHash": "b8523b820d602b2e2b5e9cb07d84b1c092c89325aa4aa5a02883828a1fe36b75",
-  "triangles": 17108,
-  "draws": 101,
+  "assetHash": "1b0443721b2d5c61762dc0a199473455150e9476e00d89c3e17325549f0f2108",
+  "triangles": 20002,
+  "draws": 102,
   "materials": 9,
   "textures": 0,
   "parts": [
@@ -12,7 +12,7 @@
       "name": "Runko ja apurungot",
       "gameSlot": "frame",
       "inspectionGroup": "mechanics",
-      "triangles": 528,
+      "triangles": 572,
       "draws": 1,
       "markers": [
         {
@@ -107,7 +107,7 @@
       "name": "Takaluukku",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 336,
+      "triangles": 440,
       "draws": 2,
       "markers": [
         {
@@ -162,11 +162,20 @@
       "markers": []
     },
     {
+      "id": "left-mirror",
+      "name": "Vasen peili",
+      "gameSlot": "left-mirror",
+      "inspectionGroup": "body",
+      "triangles": 164,
+      "draws": 3,
+      "markers": []
+    },
+    {
       "id": "left-door",
       "name": "Vasen ovi",
       "gameSlot": "left-door",
       "inspectionGroup": "body",
-      "triangles": 262,
+      "triangles": 210,
       "draws": 2,
       "markers": []
     },
@@ -202,7 +211,7 @@
       "name": "Vasen etulokasuoja",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 252,
+      "triangles": 743,
       "draws": 2,
       "markers": []
     },
@@ -211,8 +220,17 @@
       "name": "Vasen takakylki",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 256,
+      "triangles": 761,
       "draws": 2,
+      "markers": []
+    },
+    {
+      "id": "right-mirror",
+      "name": "Oikea peili",
+      "gameSlot": "right-mirror",
+      "inspectionGroup": "body",
+      "triangles": 164,
+      "draws": 3,
       "markers": []
     },
     {
@@ -220,7 +238,7 @@
       "name": "Oikea ovi",
       "gameSlot": "right-door",
       "inspectionGroup": "body",
-      "triangles": 262,
+      "triangles": 210,
       "draws": 2,
       "markers": []
     },
@@ -256,7 +274,7 @@
       "name": "Oikea etulokasuoja",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 252,
+      "triangles": 743,
       "draws": 2,
       "markers": []
     },
@@ -265,7 +283,7 @@
       "name": "Oikea takakylki",
       "gameSlot": "trunk",
       "inspectionGroup": "body",
-      "triangles": 256,
+      "triangles": 761,
       "draws": 2,
       "markers": []
     },
@@ -292,8 +310,8 @@
       "name": "Etumaski",
       "gameSlot": "hood",
       "inspectionGroup": "body",
-      "triangles": 49,
-      "draws": 2,
+      "triangles": 315,
+      "draws": 3,
       "markers": []
     },
     {
@@ -421,56 +439,6 @@
       ]
     },
     {
-      "id": "left-mirror",
-      "name": "Vasen peili",
-      "gameSlot": "left-mirror",
-      "inspectionGroup": "body",
-      "triangles": 132,
-      "draws": 3,
-      "markers": [
-        {
-          "id": "mount.left-mirror",
-          "kind": "mount",
-          "point": [
-            1.0099999904632568,
-            0.5299999713897705,
-            0.3799999952316284
-          ],
-          "normal": [
-            0,
-            1,
-            0
-          ],
-          "note": ""
-        }
-      ]
-    },
-    {
-      "id": "right-mirror",
-      "name": "Oikea peili",
-      "gameSlot": "right-mirror",
-      "inspectionGroup": "body",
-      "triangles": 132,
-      "draws": 3,
-      "markers": [
-        {
-          "id": "mount.right-mirror",
-          "kind": "mount",
-          "point": [
-            -1.0099999904632568,
-            0.5299999713897705,
-            0.3799999952316284
-          ],
-          "normal": [
-            0,
-            1,
-            0
-          ],
-          "note": ""
-        }
-      ]
-    },
-    {
       "id": "exhaust",
       "name": "Pakoputki",
       "gameSlot": "exhaust",
@@ -584,7 +552,7 @@
       "name": "Jarrulevy ja satula 1",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     },
@@ -627,7 +595,7 @@
       "name": "Jarrulevy ja satula 2",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     },
@@ -670,7 +638,7 @@
       "name": "Jarrulevy ja satula 3",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     },
@@ -713,7 +681,7 @@
       "name": "Jarrulevy ja satula 4",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     },

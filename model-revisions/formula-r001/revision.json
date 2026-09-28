@@ -1,8 +1,8 @@
 {
   "revision": "blender-r001",
   "vehicle": "formula",
-  "assetHash": "a4f9f85f0f5b36c6c7463f0395f09bd473544cc62a53e0c4800ca136a4d96c34",
-  "triangles": 16404,
+  "assetHash": "0227ab5ca690fcb2a51900c28c26c6e6c8374344aaaa29225d856e5a5023fa1d",
+  "triangles": 17040,
   "draws": 85,
   "materials": 9,
   "textures": 0,
@@ -116,7 +116,7 @@
       "name": "Vasen sivuponttooni",
       "gameSlot": "left-door",
       "inspectionGroup": "body",
-      "triangles": 194,
+      "triangles": 204,
       "draws": 3,
       "markers": []
     },
@@ -152,7 +152,7 @@
       "name": "Oikea sivuponttooni",
       "gameSlot": "right-door",
       "inspectionGroup": "body",
-      "triangles": 194,
+      "triangles": 204,
       "draws": 3,
       "markers": []
     },
@@ -357,7 +357,7 @@
       "name": "Pakoputki",
       "gameSlot": "exhaust",
       "inspectionGroup": "body",
-      "triangles": 232,
+      "triangles": 320,
       "draws": 2,
       "markers": [
         {
@@ -466,7 +466,7 @@
       "name": "Jarrulevy ja satula 1",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     },
@@ -509,7 +509,7 @@
       "name": "Jarrulevy ja satula 2",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     },
@@ -552,7 +552,7 @@
       "name": "Jarrulevy ja satula 3",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     },
@@ -595,7 +595,7 @@
       "name": "Jarrulevy ja satula 4",
       "gameSlot": "review-only",
       "inspectionGroup": "mechanics",
-      "triangles": 300,
+      "triangles": 432,
       "draws": 2,
       "markers": []
     },

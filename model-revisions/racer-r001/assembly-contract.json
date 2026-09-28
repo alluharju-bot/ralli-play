@@ -122,34 +122,6 @@
       ]
     },
     {
-      "id": "mount.left-mirror",
-      "part": "left-mirror",
-      "point": [
-        1.0099999904632568,
-        0.5299999713897705,
-        0.3799999952316284
-      ],
-      "normal": [
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "id": "mount.right-mirror",
-      "part": "right-mirror",
-      "point": [
-        -1.0099999904632568,
-        0.5299999713897705,
-        0.3799999952316284
-      ],
-      "normal": [
-        0,
-        1,
-        0
-      ]
-    },
-    {
       "id": "mount.exhaust",
       "part": "exhaust",
       "point": [
